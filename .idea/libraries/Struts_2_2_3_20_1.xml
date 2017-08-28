@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Struts 2-2.3.20.1" type="struts2">
+    <properties version="2.3.20.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Eventbrite/lib/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Eventbrite/lib/commons-fileupload.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Eventbrite/lib/asm-commons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Eventbrite/lib/asm-tree.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Eventbrite/lib/ognl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Eventbrite/lib/commons-io.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Eventbrite/lib/commons-lang.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Eventbrite/lib/javassist.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Eventbrite/lib/struts2-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Eventbrite/lib/xwork-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Eventbrite/lib/freemarker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
