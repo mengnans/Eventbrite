@@ -5,4 +5,10 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+<package name="com.eventbrite.action" extends="struts-default">
+    <action name="attendee" class="com.eventbrite.action.AttendeeAction" method="execute">
+        <result name="success">/new.jsp</result>
+        <result name="error">/error.jsp</result>
+    </action>
+</package>
 </struts>
