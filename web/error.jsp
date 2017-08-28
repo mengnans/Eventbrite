@@ -8,9 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Test</title>
+    <title>Error</title>
+    <script src="javascript/error.js"></script>
 </head>
-<body>
-<a href>hi</a>
+<body onload="onloadFunction()">
+<p id="error-message">
+</p>
 </body>
 </html>

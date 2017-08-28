@@ -15,9 +15,10 @@
 
     <!-- Custom styles for this template -->
     <link href="css/justified-nav.css" rel="stylesheet">
+    <script language="JavaScript" src="javascript/index.js"></script>
 </head>
 
-<body>
+<body onload="onloadFunction()">
 
 <div class="container">
 
@@ -67,7 +68,7 @@
         <div class="col-lg-4">
             <h2>Template Editor</h2>
             <p>An tool to easily customize the certificate for a course with the template editor. You can use the existed templates or design a new one.</p>
-            <p><a class="btn btn-primary" href="#" role="button">Start &raquo;</a></p>
+            <p><a class="btn btn-primary" onclick="getAllEventsUrl()" role="button">Start &raquo;</a></p>
         </div>
         <div class="col-lg-4">
             <h2>Mailbox Center</h2>
