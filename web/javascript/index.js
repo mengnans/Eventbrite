@@ -1,14 +1,24 @@
 function onloadFunction() {
-    if (getCookie("access_token") == null) {
+    if (getCookie("access_token") == "") {
         var parameters = window.location.hash;
         if (!parameters.length > 0) {
-            setCookie("errorMessage", "Please login in first",30);
-            location.replace("error.jsp");
+            location.replace("login.html");
+            alert("Please login in first");
         } else {
             parameters = parameters.replace('#', '');
             var access_token = parameters.split('&')[1].split('=')[1];
-            setCookie("access_token", access_token,30);
+            setCookie("access_token", access_token,1);
         }
+    }
+    if (getCookie("eventId") == ""){
+        $("#mailbox_center").addClass("disabled");
+        $("#event_package").addClass("disabled");
+        $("#template_editor").addClass("disabled");
+    }else{
+
+            $("#mailbox_center").removeClass("disabled");
+            $("#event_package").removeClass("disabled");
+            $("#template_editor").removeClass("disabled");
     }
 }
 
@@ -35,8 +45,11 @@ function getCookie(cname) {
     return "";
 }
 
+function logout(){
+    delete_cookie("access_token");
+    location.replace("login.html");
+}
 
-function getAllEventsUrl() {
-
-    location.replace("new.jsp");
+function delete_cookie( cname ) {
+    document.cookie = cname + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 }

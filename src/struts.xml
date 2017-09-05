@@ -6,9 +6,9 @@
 
 <struts>
 <package name="com.eventbrite.action" extends="struts-default">
-    <action name="attendee" class="com.eventbrite.action.AttendeeAction" method="execute">
-        <result name="success">/new.jsp</result>
-        <result name="error">/error.jsp</result>
+    <action name="saveEventId" class="com.eventbrite.action.SaveEventIdAction" method="execute">
+        <result name="success">/index.html</result>
+        <result name="error">/error.html</result>
     </action>
 </package>
 </struts>
