@@ -6,10 +6,630 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaa89d63-7590-47bb-94e0-739f9d5ba0ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Eventbrite/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Eventbrite/.idea/workspace.xml" />
+    <list default="true" id="aaa89d63-7590-47bb-94e0-739f9d5ba0ca" name="Default" comment="update template editor">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/appengine-api-1.0-sdk-1.9.34.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/appengine-api-labs.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/appengine-endpoints-deps.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/appengine-endpoints.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/appengine-jsr107cache-1.9.34.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-codec-1.10.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang3-3.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/httpclient-4.5.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/httpcore-4.4.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/httpmime-4.5.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/im4java-1.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-smart-1.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jsr107cache-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.8.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mxgraph-core.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/nimbus-jose-jwt-2.16.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/actor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/alignbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/aligncenter.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/alignleft.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/alignmiddle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/alignright.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/aligntop.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/bell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/block_end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/block_start.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/bold.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/camera.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/center.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/classic_end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/classic_start.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/cloud.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/cmp-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/connect.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/connector.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/console.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/copy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/cube_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/cut.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/cylinder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/delete.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/diagram.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/diamond_end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/diamond_start.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/doubleellipse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/draw/drawbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/draw/drawbgcolor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/draw/drawfooter.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/draw/drawheader.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/draw/mxlogo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/dude3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/earth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/ellipse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/entity.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/fillcolor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/fit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/font.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/fontcolor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/gear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/grid.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/group.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/help.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/hexagon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/hline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/house.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/house.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/image.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/italic.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/linecolor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/link.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/middle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/new.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/open_end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/open_start.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/outline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/oval_end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/oval_start.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/flash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/forbidden.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/house.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/information.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/lightbulb_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/printer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/user3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/users3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/overlays/workplace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/package.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/pan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/paste.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/plain.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/preferences.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/press.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/preview.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/print.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/printer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/properties.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/rectangle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/redo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/refresh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/rhombus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/rounded.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/save.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/saveas.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/script.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/select.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/server.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/straight.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/swimlane.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/cancel_end.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/cancel_intermediate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/event.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/event_end.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/event_intermediate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/fork.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/inclusive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/merge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/message.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/message_end.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/message_intermediate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/multiple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/rule.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_cancel_end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_cancel_intermediate.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_error.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_event.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_event_end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_event_intermediate.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_fork.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_inclusive.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_link.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_merge.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_message.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_message_end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_message_intermediate.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_multiple.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_rule.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_terminate.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/small_timer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/terminate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/symbols/timer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/tasks.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/text.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/toback.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/tofront.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/toolbar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/tree.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/triangle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/underline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/undo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/ungroup.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/vertical.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/workplace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/wrench.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/zoom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/zoomactual.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/zoomin.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/images/zoomout.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/checkmark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/clear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/collapsed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/dropdown.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/dropdown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/edit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/expanded.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/grid.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/handle-fixed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/handle-main.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/handle-rotate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/handle-secondary.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/handle-terminal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/locked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/nocolor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/round-drop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/tooltip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/transparent.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/triangle-down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/triangle-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/triangle-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/triangle-up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/images/unlocked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/jscolor/arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/jscolor/cross.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/jscolor/hs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/jscolor/hv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Credit_Card_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Database_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Doctor1_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Earth_globe_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Email_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Empty_Folder_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Firewall_02_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Full_Folder_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Gear_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Graph_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Laptop_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Lock_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/MacBook_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Monitor_Tower_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Piggy_Bank_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Pilot1_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Printer_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Router_Icon_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Safe_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Security1_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Server_Tower_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Shopping_Cart_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Software_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Soldier1_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Suit1_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Suit2_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Suit3_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Tech1_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Telesales1_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Virtual_Machine_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Virus_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Wireless_Router_N_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Worker1_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/Workstation_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/iMac_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/clipart/iPad_128x128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/thumb_horz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/thumb_vertical.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/connector.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/cut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/delete2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/dot.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/export1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/fit_to_size.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/gradient_background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/green-dot.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/group.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/handle-connect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/handle-main.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/icons48/column.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/icons48/earth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/icons48/gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/icons48/keys.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/icons48/mail_new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/icons48/server.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/icons48/table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/navigate_minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/navigate_plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/paste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/press32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/print32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/printer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/sidebar_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/toolbar_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/view_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/view_1_132.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/view_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/view_previous.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/wires-grid.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/zoom_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/zoom_in32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/zoom_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images/zoom_out32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/button.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/collapsed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/error.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/expanded.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/maximize.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/minimize.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/normalize.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/point.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/resize.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/separator.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/submenu.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/transparent.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/warning.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/window-title.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/images/window.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-grid.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/htmleaf-demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/anchors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/animation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/autolayout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/boundary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/clipboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/codec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/collapse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/constituent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/contexticons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/dragsource.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/drop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/dynamicloading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/dynamicstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/dynamictoolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/edgetolerance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/diagrameditor.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/editor-commons.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/keyhandler-commons.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/keyhandler-minimal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/layouteditor.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/processeditor.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/wfeditor-commons.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/wfgraph-commons.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/wftoolbar-commons.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/workfloweditor.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/css/process.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/css/wordpress.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrameditor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/empty.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/swimlanes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/travel-booking.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/withdrawal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/grapheditor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/help/index-all.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/help/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/layouteditor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/processeditor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/resources/app.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/resources/app_de.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/resources/app_zh.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/workfloweditor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/extendcanvas.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/fileio.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/fileio.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/fileio.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/fixedicon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/fixedpoints.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/folding.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/GraphEditor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/OpenServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Dialogs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Editor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/EditorUi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Graph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Menus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Shapes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Toolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/jscolor/jscolor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/open.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/resources/grapheditor.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/resources/grapheditor_de.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/resources/help.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/resources/help_de.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/sanitizer/sanitizer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/arrows.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/basic.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/bpmn.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/flowchart.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/grapheditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/help.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/viewer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/graphlayout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/grid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/groups.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/guides.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/handles.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/helloport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/helloworld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/hierarchicallayout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/hovericons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/hoverstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/htmllabel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/ie9svg.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/images.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/indicators.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/jquery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/jsondata.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/labelposition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/labels.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/layers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/lod.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/markers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/menustyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/merge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/monitor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/morph.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/offpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/orgchart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/orthogonal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/overlays.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/pagebreaks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/perimeter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/permissions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/portrefs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/ports.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/radialtreelayout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/schema.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/scrollbars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/secondlabel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/serverview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/shape.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/showregion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/standardsmode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/stencils.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/stencils.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/stylesheet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/swimlanes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/thread.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/touch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/uiconfig.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/uiconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/userobject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/validation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/visibility.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/webpack/anchors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/webpack/src/anchors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/windows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/wires.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/examples/wrapping.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/mxClient.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/css/explorer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultKeyHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultPopupMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultToolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/editor/mxEditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellHighlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellMarker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellTracker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxConnectionHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxConstraintHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxEdgeHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxEdgeSegmentHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxElbowEdgeHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxGraphHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxHandle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxKeyHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxPanningHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxPopupMenuHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxRubberband.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxSelectionCellsHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxTooltipHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxVertexHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/index.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxCellCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxChildChangeCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxCodecRegistry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultKeyHandlerCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultPopupMenuCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultToolbarCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxEditorCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxGenericChangeCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxGraphCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxGraphViewCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxModelCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxObjectCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxRootChangeCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxStylesheetCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxTerminalChangeCodec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphAbstractHierarchyCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyEdge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyNode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxSwimlaneModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/mxHierarchicalLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/mxSwimlaneLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxCoordinateAssignment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxHierarchicalLayoutStage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxMedianHybridCrossingReduction.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxMinimumCycleRemover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxSwimlaneOrdering.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCircleLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCompactTreeLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCompositeLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxEdgeLabelLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxFastOrganicLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxGraphLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxParallelEdgeLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxPartitionLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxRadialTreeLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxStackLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/model/mxCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/model/mxCellPath.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/model/mxGeometry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/model/mxGraphModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/mxClient.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxActor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxArrow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxArrowConnector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxCloud.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxConnector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxCylinder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxDoubleEllipse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxEllipse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxHexagon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxImageShape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxLabel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxLine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxMarker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxPolyline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxRectangleShape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxRhombus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxShape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxStencil.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxStencilRegistry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxSwimlane.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxText.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxTriangle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxAbstractCanvas2D.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxAnimation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxAutoSaveManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxClipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxConstants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxDictionary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxDivResizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxDragSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxEffects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxEvent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxEventObject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxEventSource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxGuide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxImage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxImageBundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxImageExport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxLog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxMorphing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxMouseEvent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxObjectIdentity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxPanningManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxPoint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxPopupMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxRectangle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxResources.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxSvgCanvas2D.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxToolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxUndoManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxUndoableEdit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxUrlConverter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxVmlCanvas2D.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxXmlCanvas2D.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxXmlRequest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellEditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellOverlay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellStatePreview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxConnectionConstraint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxEdgeStyle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraphSelectionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraphView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxLayoutManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxMultiplicity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxOutline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxPerimeter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxPrintPreview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxStyleRegistry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxStylesheet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxSwimlaneManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxTemporaryCellStates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/resources/editor.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/resources/editor_de.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/resources/editor_zh.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/resources/graph.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/resources/graph_de.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/javascript/src/resources/graph_zh.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/javascript/index.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/justified-nav.css" afterPath="$PROJECT_DIR$/web/css/justified-nav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/test.jsp" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/design.jsp" />
     </list>
-    <ignored path="$PROJECT_DIR$/../Eventbrite/out/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,70 +638,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Eventbrite/web/bootstrap/js/bootstrap.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GraphEditor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/GraphEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Eventbrite/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-273">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Eventbrite/web/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexAction.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Eventbrite/src/eventbrite/action/IndexAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Eventbrite/src/struts.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Eventbrite/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -94,19 +656,36 @@
       <list>
         <option value="struts_2_3" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lg</find>
+      <find>jumbotron</find>
+      <find>editor-container</find>
+      <find>container</find>
+      <find>col-lg-6</find>
+      <find>import</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="RubyFXD &lt;fanxudong863@gmail.com&gt;" />
         <option value="mengnas &lt;thundersmn@outlook.com&gt;" />
         <option value="thundersmn@outlook.com" />
         <option value="mengnans" />
         <option value="mengnans(thundersmn@outlook.com)" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Eventbrite" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -116,13 +695,39 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../Eventbrite/web/index.jsp" />
-        <option value="$PROJECT_DIR$/../Eventbrite/src/eventbrite/action/IndexAction.java" />
+        <option value="$PROJECT_DIR$/src/eventbrite/action/IndexAction.java" />
+        <option value="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/design.jsp" />
+        <option value="$PROJECT_DIR$/web/css/design.css" />
+        <option value="$PROJECT_DIR$/web/css/justified-nav.css" />
+        <option value="G:/201609081635/index.html" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/css/bootstrap-grid.min.css" />
+        <option value="$PROJECT_DIR$/web/javascript/quill.js" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/web/design.jsp" />
+        <option value="$PROJECT_DIR$/web/javascript/index.html" />
+        <option value="$PROJECT_DIR$/web/javascript/examples/editors/grapheditor.html" />
+        <option value="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/design.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/GraphEditor.java" />
+        <option value="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/design.jsp" />
+        <option value="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Actions.js" />
+        <option value="$PROJECT_DIR$/src/mxgraph/online/Utils.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Menus.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -135,10 +740,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -156,8 +760,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,28 +769,12 @@
               <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,10 +786,22 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="SearchEverywhereHistoryKey" value="git&#9;ACTION&#9;Git.ContextMenu" />
+    <property name="SearchEverywhereHistoryKey" value="Menu&#9;FILE&#9;file://G:/GitHubProjects/Eventbrite/web/javascript/examples/grapheditor/www/js/Menus.js&#10;editorui&#9;FILE&#9;file://G:/GitHubProjects/Eventbrite/web/javascript/examples/grapheditor/www/js/EditorUi.js&#10;git&#9;ACTION&#9;Git.ContextMenu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\GitHubProjects\Eventbrite\web\javascript" />
+      <recent name="G:\GitHubProjects\Eventbrite\web\css" />
+      <recent name="G:\GitHubProjects\Eventbrite\web" />
+      <recent name="G:\GitHubProjects\Eventbrite\web\WEB-INF" />
+      <recent name="G:\GitHubProjects\Eventbrite\web\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GitHubProjects\Eventbrite\web\WEB-INF" />
+      <recent name="G:\GitHubProjects\Eventbrite\src" />
+      <recent name="G:\GitHubProjects\Eventbrite\web\javascript" />
+      <recent name="G:\GitHubProjects\Eventbrite\web\img" />
       <recent name="F:\Eventbrite\web" />
     </key>
   </component>
@@ -217,7 +817,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.index.jsp">
+  <component name="RunManager" selected="Tomcat Server.Eventbrite">
+    <configuration name="Eventbrite" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.42" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Eventbrite:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Eventbrite" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50526" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Eventbrite:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -230,7 +903,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eventbrite" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -360,82 +1033,9 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M26" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="Eventbrite:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_Eventbrite" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50526" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Eventbrite:war exploded" />
-        </option>
-      </method>
-    </configuration>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Eventbrite" />
       </list>
     </recent_temporary>
   </component>
@@ -453,6 +1053,14 @@
       <option name="presentableId" value="Default" />
       <updated>1503909843559</updated>
       <workItem from="1503909845166" duration="1959000" />
+      <workItem from="1503923734840" duration="430000" />
+      <workItem from="1503926603634" duration="12803000" />
+      <workItem from="1504145582044" duration="660000" />
+      <workItem from="1504509777219" duration="228000" />
+      <workItem from="1504593787985" duration="1371000" />
+      <workItem from="1504597932914" duration="285000" />
+      <workItem from="1504611641008" duration="1112000" />
+      <workItem from="1504612776118" duration="18539000" />
     </task>
     <task id="LOCAL-00001" summary="update struct 2.3 @Mengnan Shi">
       <created>1503911243422</created>
@@ -472,42 +1080,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1959000" />
+    <option name="totallyTimeSpent" value="37387000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-8" width="1873" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.50188476" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15321252" sideWeight="0.25416037" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.49811524" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986537" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.261944" sideWeight="0.8335855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15321252" sideWeight="0.74583966" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25113463" sideWeight="0.125" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -519,14 +1126,71 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update struct 2.3 @Mengnan Shi" />
-    <option name="LAST_COMMIT_MESSAGE" value="update struct 2.3 @Mengnan Shi" />
+    <MESSAGE value="update template editor" />
+    <option name="LAST_COMMIT_MESSAGE" value="update template editor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="84" lean-forward="false" selection-start-line="69" selection-start-column="84" selection-end-line="69" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/editors/grapheditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="106" lean-forward="false" selection-start-line="5" selection-start-column="106" selection-end-line="5" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/design.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/GraphEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/design.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/design.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -534,7 +1198,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/bootstrap/js/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/design.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/design.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/editors/grapheditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -542,15 +1230,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/login.jsp">
+    <entry file="file://$PROJECT_DIR$/web/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -558,7 +1238,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/src/struts.xml">
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/OpenServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/www/open.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding>
+            <marker date="1504595900582" expanded="true" signature="3920:3935" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1439">
+          <caret line="120" column="25" lean-forward="false" selection-start-line="120" selection-start-column="25" selection-end-line="120" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/fileio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/src/js/io/mxModelCodec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/src/js/io/mxGraphCodec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eventbrite/action/IndexAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultPopupMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1131">
+          <caret line="215" column="38" lean-forward="false" selection-start-line="215" selection-start-column="38" selection-end-line="215" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultToolbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10232">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/EditorUi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="1178" column="2" lean-forward="true" selection-start-line="1178" selection-start-column="2" selection-end-line="1178" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/ie10-viewport-bug-workaround.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OpenServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mxgraph/online/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Menus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="469" column="67" lean-forward="false" selection-start-line="469" selection-start-column="67" selection-end-line="469" selection-end-column="67" />
+          <folding>
+            <marker date="1504672884278" expanded="true" signature="2626:2637" ph="..." />
+            <marker date="1504672884278" expanded="true" signature="2750:2761" ph="..." />
+            <marker date="1504672884278" expanded="true" signature="2874:2885" ph="..." />
+            <marker date="1504672884278" expanded="true" signature="2998:3009" ph="..." />
+            <marker date="1504672884278" expanded="true" signature="3122:3133" ph="..." />
+            <marker date="1504672884278" expanded="true" signature="3246:3257" ph="..." />
+            <marker date="1504672884278" expanded="true" signature="3375:3386" ph="..." />
+            <marker date="1504672884278" expanded="true" signature="3516:3549" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1557">
+          <caret line="103" column="16" lean-forward="true" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/www/design.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="84" column="21" lean-forward="false" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+          <folding>
+            <marker date="1504662656748" expanded="true" signature="4546:4561" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -569,16 +1418,27 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/src/eventbrite/action/IndexAction.java">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="361">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/edgetolerance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/GraphEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

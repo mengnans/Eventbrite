@@ -65,9 +65,9 @@
     <!-- Example row of columns -->
     <div class="row">
         <div class="col-lg-4">
-            <h2>Template Editor</h2>
+            <h2>Certificate Design</h2>
             <p>An tool to easily customize the certificate for a course with the template editor. You can use the existed templates or design a new one.</p>
-            <p><a class="btn btn-primary" href="#" role="button">Start &raquo;</a></p>
+            <p><a class="btn btn-primary" href="javascript/examples/grapheditor/www/design.jsp" role="button">Start &raquo;</a></p>
         </div>
         <div class="col-lg-4">
             <h2>Mailbox Center</h2>
