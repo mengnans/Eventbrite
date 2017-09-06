@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Select an event</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <link rel="icon" href="images/website.ico">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="css/justified-nav.css" rel="stylesheet">
+
+    <link href="css/select.css" rel="stylesheet">
+    <script src="javascript/select.js"></script>
+</head>
+<body onload="onloadFunction()">
+<div class="container">
+
+    <div class="masthead">
+        <h3 class="text-muted">ICU Quoll</h3>
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav text-md-center nav-justified w-100">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Templates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mailbox</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="logout()">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <h2>Select an event from the following table</h2>
+    <div class="scrollable_table">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Created Date</th>
+            <th>URL</th>
+        </tr>
+        </thead>
+    <tbody id="tbody">
+
+    </tbody>
+    </table>
+    </div>
+
+</div>
+    <script src="javascript/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="javascript/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
