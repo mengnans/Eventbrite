@@ -69,7 +69,7 @@
 
         function getUserEmail(){
             var access_token = getCookie("access_token");
-            var url = "https://www.eventbriteapi.com/v3/users/me?token=" + access_token;
+            var url = "https://www.eventbriteapi.com/v3/users/me/?token=" + access_token;
             var xhttp = new XMLHttpRequest();
             var userEmail = "";
             xhttp.onreadystatechange = function() {
@@ -77,11 +77,11 @@
                 if (this.readyState == 4 && this.status == 200) {
                     var responseJSON = JSON.parse(this.responseText);
                     userEmail = responseJSON.emails[0].email;
+                    $("#reply_to").val(userEmail);
                 }
             };
             xhttp.open("GET", url, true);
             xhttp.send();
-            return userEmail;
         }
 
         function tdClick(i){
@@ -100,8 +100,7 @@
         $(document).ready(function () {
             var editor = new SquireUI({replace: 'textarea#foo', height: 300});
             var attendeesList = getAllAttendees();
-//            var userEmail = getUserEmail();
-//            $("#reply_to").value = userEmail;
+            getUserEmail();
 
             $("#all_attendees").click(function(){
                 $("#selected_attendees").removeClass("active");

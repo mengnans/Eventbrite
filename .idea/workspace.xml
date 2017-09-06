@@ -7,34 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaa89d63-7590-47bb-94e0-739f9d5ba0ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/build/font-awesome/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/images/website.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/build/Squire-UI.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/build/Squire-UI.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/build/Squire-UI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/build/bootstrap/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/build/jQuery/jQuery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/build/squire-raw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/css/select.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/javascript/mail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/javascript/select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/mail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Eventbrite/web/select.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Eventbrite/web/javascript/new.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Eventbrite/web/new.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Eventbrite/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Eventbrite/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Eventbrite/src/struts.xml" afterPath="$PROJECT_DIR$/../Eventbrite/src/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Eventbrite/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../Eventbrite/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Eventbrite/web/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/../Eventbrite/web/bootstrap/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Eventbrite/web/javascript/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/../Eventbrite/web/javascript/ie10-viewport-bug-workaround.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Eventbrite/web/javascript/index.js" afterPath="$PROJECT_DIR$/../Eventbrite/web/javascript/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Eventbrite/web/javascript/popper.min.js" afterPath="$PROJECT_DIR$/../Eventbrite/web/javascript/popper.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Eventbrite/src/com/eventbrite/action/AttendeeAction.java" afterPath="$PROJECT_DIR$/../Eventbrite/src/com/eventbrite/action/SaveEventIdAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Eventbrite/web/error.jsp" afterPath="$PROJECT_DIR$/../Eventbrite/web/error.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Eventbrite/web/index.jsp" afterPath="$PROJECT_DIR$/../Eventbrite/web/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Eventbrite/web/login.jsp" afterPath="$PROJECT_DIR$/../Eventbrite/web/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/error.html" afterPath="$PROJECT_DIR$/web/error.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/mail.html" afterPath="$PROJECT_DIR$/web/mail.html" />
     </list>
-    <ignored path="$PROJECT_DIR$/../Eventbrite/out/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,31 +21,138 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mail.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/mail.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/javascript/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="824">
+              <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/select.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="mail.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Eventbrite/web/mail.html">
+        <entry file="file://$PROJECT_DIR$/web/mail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="228" column="31" lean-forward="true" selection-start-line="228" selection-start-column="31" selection-end-line="228" selection-end-column="31" />
+            <state relative-caret-position="210">
+              <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="select.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/select.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="60" />
+            <state relative-caret-position="2250">
+              <caret line="75" column="71" lean-forward="true" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
+              <folding>
+                <element signature="e#2945#2952#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/error.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <marker date="1504672606883" expanded="true" signature="75511:75553" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="75511:75571" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="75511:75584" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="75511:75599" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="75634:78317" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="75647:78302" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="75701:76096" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="75720:76081" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="75844:76061" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="75884:76027" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="75905:76005" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76146:76457" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76165:76442" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76244:76422" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76284:76388" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76305:76366" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76508:76773" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76527:76758" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76560:76738" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76600:76704" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76621:76682" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76816:77122" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76835:77107" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76909:77087" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76949:77053" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="76970:77031" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="77173:77525" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="77192:77510" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="77273:77490" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="77313:77456" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="77334:77434" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="77560:77866" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="77579:77851" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="77653:77831" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="77693:77797" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="77714:77775" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="77918:78288" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="77937:78273" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="78075:78253" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="78115:78219" ph="..." />
+                <marker date="1504672606883" expanded="true" signature="78136:78197" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/javascript/error.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="20" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/struts.xml">
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -90,7 +174,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>atte</find>
       <find>Design</find>
       <find>new</find>
       <find>index</find>
@@ -120,6 +203,7 @@
       <find>mail.js</find>
       <find>logi</find>
       <find>dang</find>
+      <find>repl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,7 +215,7 @@
         <option value="mengnans(thundersmn@outlook.com)" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Eventbrite" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -141,43 +225,43 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../Eventbrite/src/eventbrite/action/IndexAction.java" />
-        <option value="$PROJECT_DIR$/../Eventbrite/src/eventbrite/action/HomeAction.java" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/test.jsp" />
-        <option value="$PROJECT_DIR$/../Eventbrite/lib/ognl.jar!/ognl/OgnlRuntime.class" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/javascript/eror.js" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/error.jsp" />
-        <option value="$PROJECT_DIR$/../Eventbrite/src/com/eventbrite/action/HomeAction.java" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/javascript/error.js" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/javascript/new.js" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/javascript/popper.min.js" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/WEB-INF/test.html" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/new.jsp" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/css/index.css" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/WEB-INF/choose.jsp" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/css/select.css" />
+        <option value="$PROJECT_DIR$/src/eventbrite/action/IndexAction.java" />
+        <option value="$PROJECT_DIR$/src/eventbrite/action/HomeAction.java" />
+        <option value="$PROJECT_DIR$/web/test.jsp" />
+        <option value="$PROJECT_DIR$/lib/ognl.jar!/ognl/OgnlRuntime.class" />
+        <option value="$PROJECT_DIR$/web/javascript/eror.js" />
+        <option value="$PROJECT_DIR$/web/error.jsp" />
+        <option value="$PROJECT_DIR$/src/com/eventbrite/action/HomeAction.java" />
+        <option value="$PROJECT_DIR$/web/javascript/error.js" />
+        <option value="$PROJECT_DIR$/web/javascript/new.js" />
+        <option value="$PROJECT_DIR$/web/javascript/popper.min.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/test.html" />
+        <option value="$PROJECT_DIR$/web/new.jsp" />
+        <option value="$PROJECT_DIR$/web/css/index.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/choose.jsp" />
+        <option value="$PROJECT_DIR$/web/css/select.css" />
         <option value="$USER_HOME$/Desktop/Emails to Attendees.html" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/select.jsp" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/index.jsp" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/stone" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/build/Squire-UI.html" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/stone.html" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/mail.jsp" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/javascript/temp.js" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/WEB-INF/temp.html" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/temp.html" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/javascript/mail.js" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/select.html" />
-        <option value="$PROJECT_DIR$/../Eventbrite/src/com/eventbrite/action/AttendeeAction.java" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/login.jsp" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/javascript/select.js" />
-        <option value="$PROJECT_DIR$/../Eventbrite/src/struts.xml" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/index.html" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/javascript/index.js" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/error.html" />
-        <option value="$PROJECT_DIR$/../Eventbrite/src/com/eventbrite/action/SaveEventIdAction.java" />
-        <option value="$PROJECT_DIR$/../Eventbrite/web/mail.html" />
+        <option value="$PROJECT_DIR$/web/select.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/stone" />
+        <option value="$PROJECT_DIR$/web/build/Squire-UI.html" />
+        <option value="$PROJECT_DIR$/web/stone.html" />
+        <option value="$PROJECT_DIR$/web/mail.jsp" />
+        <option value="$PROJECT_DIR$/web/javascript/temp.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/temp.html" />
+        <option value="$PROJECT_DIR$/web/temp.html" />
+        <option value="$PROJECT_DIR$/web/javascript/mail.js" />
+        <option value="$PROJECT_DIR$/src/com/eventbrite/action/AttendeeAction.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/web/javascript/select.js" />
+        <option value="$PROJECT_DIR$/src/struts.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/javascript/index.js" />
+        <option value="$PROJECT_DIR$/src/com/eventbrite/action/SaveEventIdAction.java" />
+        <option value="$PROJECT_DIR$/web/select.html" />
+        <option value="$PROJECT_DIR$/web/error.html" />
+        <option value="$PROJECT_DIR$/web/mail.html" />
       </list>
     </option>
   </component>
@@ -218,8 +302,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,37 +313,40 @@
             <path>
               <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
@@ -278,8 +364,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,6 +398,145 @@
       <recent name="F:\Eventbrite\web" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/struts.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/web.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/bootstrap/js/bootstrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/javascript/ie10-viewport-bug-workaround.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/javascript/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/javascript/popper.min.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/eventbrite/action/SaveEventIdAction.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/build/Squire-UI.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/build/Squire-UI.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/build/Squire-UI.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/build/bootstrap/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/build/font-awesome/fontawesome-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/build/jQuery/jQuery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/build/squire-raw.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/css/select.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/error.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/images/website.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/javascript/mail.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/javascript/select.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/login.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/mail.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/select.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/com/eventbrite/action/AttendeeAction.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/error.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/index.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/javascript/new.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/login.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/new.jsp</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -336,7 +562,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Eventbrite" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -467,7 +693,7 @@
       <listeners />
     </configuration>
     <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.20" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.html" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -616,19 +842,48 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68285000" />
+    <option name="totallyTimeSpent" value="71111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="69" y="-9" width="1860" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5059718" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.49402824" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2155266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979655" sideWeight="0.49811524" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.50403875" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -639,6 +894,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.49596122" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -647,12 +903,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,22 +922,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/error.js">
+    <entry file="file://$PROJECT_DIR$/web/javascript/error.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="20" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
@@ -695,102 +937,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/error.html">
+    <entry file="file://$PROJECT_DIR$/web/error.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/src/struts.xml">
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/new.jsp" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/new.js" />
-    <entry file="jar://$PROJECT_DIR$/../Eventbrite/lib/ognl.jar!/ognl/ObjectMethodAccessor.class">
+    <entry file="file://$PROJECT_DIR$/web/new.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/javascript/new.js" />
+    <entry file="jar://$PROJECT_DIR$/lib/ognl.jar!/ognl/ObjectMethodAccessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../Eventbrite/lib/ognl.jar!/ognl/OgnlRuntime.class">
+    <entry file="jar://$PROJECT_DIR$/lib/ognl.jar!/ognl/OgnlRuntime.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="446" column="0" lean-forward="false" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../Eventbrite/lib/ognl.jar!/ognl/ObjectArrayPool.class">
+    <entry file="jar://$PROJECT_DIR$/lib/ognl.jar!/ognl/ObjectArrayPool.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../Eventbrite/lib/xwork-core.jar!/com/opensymphony/xwork2/ognl/accessor/XWorkMethodAccessor.class">
+    <entry file="jar://$PROJECT_DIR$/lib/xwork-core.jar!/com/opensymphony/xwork2/ognl/accessor/XWorkMethodAccessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
           <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/ie10-viewport-bug-workaround.js">
+    <entry file="file://$PROJECT_DIR$/web/javascript/ie10-viewport-bug-workaround.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/images/website.ico">
+    <entry file="file://$PROJECT_DIR$/web/images/website.ico">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/popper.min.js">
+    <entry file="file://$PROJECT_DIR$/web/javascript/popper.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/out/artifacts/Eventbrite_war_exploded/javascript/popper.min.js">
+    <entry file="file://$PROJECT_DIR$/out/artifacts/Eventbrite_war_exploded/javascript/popper.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="3" column="18511" lean-forward="false" selection-start-line="3" selection-start-column="18511" selection-end-line="3" selection-end-column="18511" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/new.js" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/WEB-INF/test.html" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/error.js">
+    <entry file="file://$PROJECT_DIR$/web/javascript/new.js" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/test.html" />
+    <entry file="file://$PROJECT_DIR$/web/javascript/error.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
+        <state relative-caret-position="524">
           <caret line="20" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/css/index.css" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/out/artifacts/Eventbrite_war_exploded/javascript/index.js">
+    <entry file="file://$PROJECT_DIR$/web/css/index.css" />
+    <entry file="file://$PROJECT_DIR$/out/artifacts/Eventbrite_war_exploded/javascript/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/new.jsp" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/css/select.css">
+    <entry file="file://$PROJECT_DIR$/web/new.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/css/select.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/bootstrap/js/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/web/bootstrap/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -798,59 +1041,51 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Emails to Attendees.html" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/Stylesheet/bootstrap-email.css" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/Less/bootstrap-email.less" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/template.html" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/build/jQuery/jQuery.js">
+    <entry file="file://$PROJECT_DIR$/Stylesheet/bootstrap-email.css" />
+    <entry file="file://$PROJECT_DIR$/Less/bootstrap-email.less" />
+    <entry file="file://$PROJECT_DIR$/web/template.html" />
+    <entry file="file://$PROJECT_DIR$/web/build/jQuery/jQuery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-693">
           <caret line="9628" column="38" lean-forward="false" selection-start-line="9628" selection-start-column="37" selection-end-line="9628" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/build/document.html" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/build/Squire-UI.css">
+    <entry file="file://$PROJECT_DIR$/web/build/document.html" />
+    <entry file="file://$PROJECT_DIR$/web/build/Squire-UI.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/build/squire-raw.js">
+    <entry file="file://$PROJECT_DIR$/web/build/squire-raw.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2233">
           <caret line="77" column="19" lean-forward="false" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/build/bootstrap/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/web/build/bootstrap/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/build/squire.js" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/build/Squire-UI.html">
+    <entry file="file://$PROJECT_DIR$/web/build/squire.js" />
+    <entry file="file://$PROJECT_DIR$/web/build/Squire-UI.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4698">
           <caret line="162" column="1" lean-forward="false" selection-start-line="162" selection-start-column="1" selection-end-line="162" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/stone.html" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/temp.js" />
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/temp.html" />
-    <entry file="file://$PROJECT_DIR$/../KT_Project_1_Mengnan_Shi_802123/KT/src/main/java/main/SpellingCorrection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/build/Squire-UI.js">
+    <entry file="file://$PROJECT_DIR$/web/stone.html" />
+    <entry file="file://$PROJECT_DIR$/web/javascript/temp.js" />
+    <entry file="file://$PROJECT_DIR$/web/temp.html" />
+    <entry file="file://D:/KT_Project_1_Mengnan_Shi_802123/KT/src/main/java/main/SpellingCorrection.java" />
+    <entry file="file://$PROJECT_DIR$/web/build/Squire-UI.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
@@ -858,7 +1093,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
@@ -866,71 +1101,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Eventbrite/lib/jboss-servlet-api_3.0_spec-1.0.0.Final.jar!/javax/servlet/http/Cookie.class">
+    <entry file="jar://$PROJECT_DIR$/lib/jboss-servlet-api_3.0_spec-1.0.0.Final.jar!/javax/servlet/http/Cookie.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-          <folding>
-            <element signature="e#2142#2143#0" expanded="true" />
-            <element signature="e#2178#2179#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/index.js">
+    <entry file="file://$PROJECT_DIR$/web/javascript/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="824">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="75" column="71" lean-forward="true" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
-          <folding>
-            <element signature="e#2945#2952#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/src/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/error.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/src/com/eventbrite/action/SaveEventIdAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/eventbrite/action/SaveEventIdAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
@@ -938,7 +1135,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/select.js">
+    <entry file="file://$PROJECT_DIR$/web/javascript/select.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="60" />
@@ -946,7 +1143,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/javascript/mail.js">
+    <entry file="file://$PROJECT_DIR$/web/javascript/mail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -954,10 +1151,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Eventbrite/web/mail.html">
+    <entry file="file://$PROJECT_DIR$/web/select.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="228" column="31" lean-forward="true" selection-start-line="228" selection-start-column="31" selection-end-line="228" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1504672606883" expanded="true" signature="75511:75553" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="75511:75571" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="75511:75584" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="75511:75599" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="75634:78317" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="75647:78302" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="75701:76096" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="75720:76081" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="75844:76061" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="75884:76027" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="75905:76005" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76146:76457" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76165:76442" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76244:76422" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76284:76388" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76305:76366" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76508:76773" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76527:76758" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76560:76738" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76600:76704" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76621:76682" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76816:77122" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76835:77107" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76909:77087" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76949:77053" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="76970:77031" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="77173:77525" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="77192:77510" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="77273:77490" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="77313:77456" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="77334:77434" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="77560:77866" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="77579:77851" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="77653:77831" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="77693:77797" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="77714:77775" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="77918:78288" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="77937:78273" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="78075:78253" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="78115:78219" ph="..." />
+            <marker date="1504672606883" expanded="true" signature="78136:78197" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="75" column="71" lean-forward="true" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
+          <folding>
+            <element signature="e#2945#2952#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/mail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
           <folding />
         </state>
       </provider>
