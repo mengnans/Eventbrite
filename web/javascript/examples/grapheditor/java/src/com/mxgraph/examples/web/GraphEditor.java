@@ -16,43 +16,40 @@ import org.mortbay.jetty.servlet.ServletHolder;
  * The open servlet is used to open files. It does this by calling some JavaScript
  * hook in the client-side page (see open.html).
  */
-public class GraphEditor
-{
+public class GraphEditor {
 
-	public static int PORT = 8080;
+   public static int PORT = 8080;
 
-	/**
-	 * Uncomment this for better font size rendering in px units within labels.
-	 */
-	static
-	{
+   /**
+    * Uncomment this for better font size rendering in px units within labels.
+    */
+   static {
 //		mxGraphicsCanvas2D.HTML_SCALE = 0.75;
 //		mxGraphicsCanvas2D.HTML_UNIT = "px";
-	}
+   }
 
-	/**
-	 * Point your browser to http://localhost:8080/javascript/examples/grapheditor/www/index.html
-	 */
-	public static void main(String[] args) throws Exception
-	{
-		Server server = new Server(PORT);
+   /**
+    * Point your browser to http://localhost:8080/javascript/examples/grapheditor/www/index.html
+    */
+   public static void main(String[] args) throws Exception {
+      Server server = new Server(PORT);
 
-		// Servlets
-		Context context = new Context(server, "/");
-		context.addServlet(new ServletHolder(new EchoServlet()), "/save");
-		context.addServlet(new ServletHolder(new ExportServlet()), "/export");
-		context.addServlet(new ServletHolder(new OpenServlet()), "/open");
+      // Servlets
+      Context context = new Context(server, "/");
+      context.addServlet(new ServletHolder(new EchoServlet()), "/save");
+      context.addServlet(new ServletHolder(new ExportServlet()), "/export");
+      context.addServlet(new ServletHolder(new OpenServlet()), "/open");
 
-		ResourceHandler fileHandler = new ResourceHandler();
-		fileHandler.setResourceBase(".");
+      ResourceHandler fileHandler = new ResourceHandler();
+      fileHandler.setResourceBase(".");
 
-		HandlerList handlers = new HandlerList();
-		handlers.setHandlers(new Handler[] { fileHandler, context });
-		server.setHandler(handlers);
+      HandlerList handlers = new HandlerList();
+      handlers.setHandlers(new Handler[]{fileHandler, context});
+      server.setHandler(handlers);
 
-		System.out.println("Go to http://localhost:" + PORT + "/javascript/examples/grapheditor/www/design.jsp");
-		
-		server.start();
-		server.join();
-	}
+      System.out.println("Go to http://localhost:" + PORT + "/javascript/examples/grapheditor/www/design.jsp");
+
+      server.start();
+      server.join();
+   }
 }

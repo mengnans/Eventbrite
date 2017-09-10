@@ -42,18 +42,19 @@
             }
             return "";
         }
-        function getAllAttendees(){
+
+        function getAllAttendees() {
             var eventId = getCookie("eventId");
             var access_token = getCookie("access_token");
-            var url = "https://www.eventbriteapi.com/v3/events/" + eventId + "/attendees/?token="+access_token;
+            var url = "https://www.eventbriteapi.com/v3/events/" + eventId + "/attendees/?token=" + access_token;
             var xhttp = new XMLHttpRequest();
             var attendeesList = new Array();
-            xhttp.onreadystatechange = function() {
+            xhttp.onreadystatechange = function () {
 
                 if (this.readyState == 4 && this.status == 200) {
                     var responseJSON = JSON.parse(this.responseText);
                     var num = responseJSON.pagination.object_count;
-                    for(var i = 0; i < num && i < 50; i ++){
+                    for (var i = 0; i < num && i < 50; i++) {
                         var name = responseJSON.attendees[i].profile.name;
                         var email = responseJSON.attendees[i].profile.email;
                         attendeesList[i] = "" + name + "," + email;
@@ -67,12 +68,12 @@
             return attendeesList;
         }
 
-        function getUserEmail(){
+        function getUserEmail() {
             var access_token = getCookie("access_token");
             var url = "https://www.eventbriteapi.com/v3/users/me/?token=" + access_token;
             var xhttp = new XMLHttpRequest();
             var userEmail = "";
-            xhttp.onreadystatechange = function() {
+            xhttp.onreadystatechange = function () {
 
                 if (this.readyState == 4 && this.status == 200) {
                     var responseJSON = JSON.parse(this.responseText);
@@ -84,48 +85,48 @@
             xhttp.send();
         }
 
-        function tdClick(i){
+        function tdClick(i) {
             var id = "#td_" + i;
             var item = $(id);
-            if(item.hasClass("alert-danger")){
+            if (item.hasClass("alert-danger")) {
                 item.removeClass("alert-danger");
                 item.addClass("alert-success");
             }
-            else if(item.hasClass("alert-success")){
+            else if (item.hasClass("alert-success")) {
                 item.removeClass("alert-success");
                 item.addClass("alert-danger");
             }
         }
 
         $(document).ready(function () {
-            var editor = new SquireUI({replace: 'textarea#foo', height: 300}); 
+            var editor = new SquireUI({replace: 'textarea#foo', height: 300});
             var attendeesList = getAllAttendees();
             getUserEmail();
 
-            $("#all_attendees").click(function(){
+            $("#all_attendees").click(function () {
                 $("#selected_attendees").removeClass("active");
                 $("#all_attendees").addClass("active");
                 document.getElementById("attendee_list").innerHTML = "";
             });
-            $("#selected_attendees").click(function(){
+            $("#selected_attendees").click(function () {
                 $("#all_attendees").removeClass("active");
                 $("#selected_attendees").addClass("active");
                 var html = "<table class=\"table table-condensed\">\n" +
                     "            <tbody>\n" +
                     "            <tr>";
                 var i;
-                for(i = 0;i < attendeesList.length; i ++) {
+                for (i = 0; i < attendeesList.length; i++) {
                     var name = attendeesList[i].split(',')[0];
                     var email = attendeesList[i].split(',')[1];
                     var content = name + "," + email;
                     var id = "td_" + i;
                     html += "<td id = " + id + "  class='alert-danger' onclick='tdClick(" + i + ")'>" + content + "</td>";
-                    if((i+1) % 3 == 0){
+                    if ((i + 1) % 3 == 0) {
                         html += "</tr>" +
                             "<tr>"
                     }
                 }
-                if((i+1) % 3 != 0){
+                if ((i + 1) % 3 != 0) {
                     html += "</tr>";
                 }
 
@@ -133,45 +134,51 @@
                 document.getElementById("attendee_list").innerHTML = html;
 
             });
-            $("#send").click(function(){
+            $("#send").click(function () {
 
-                if($("#selected_attendees").hasClass("active")){
+                if ($("#selected_attendees").hasClass("active")) {
                     attendeesList = new Array();
                     var count = 0;
                     var i = 0;
-                    while(true){
+                    while (true) {
                         var id = "#td_" + i;
                         var item = $(id);
                         var value = item.html();
-                        if(typeof(value) == "undefined"){
+                        if (typeof(value) == "undefined") {
                             break;
                         }
-                        if(item.hasClass("alert-success")){
+                        if (item.hasClass("alert-success")) {
                             attendeesList[count++] = value;
                         }
                         i++;
                     }
-                    if(attendeesList.length <= 0){
+                    if (attendeesList.length <= 0) {
                         alert("You must choose at least one attendee");
                         return;
                     }
                 }
-                    for(var i = 0;i < attendeesList.length; i ++){
-                        var name = attendeesList[i].split(',')[0];
-                        var email = attendeesList[i].split(',')[1];
-                        // get the subject
-                        var subject = document.getElementById("subject").value;
-                        // get the reply_to
-                        var replyTo = document.getElementById("reply_to").value;
-                        // get the email content
-                        var content = editor.getHTML();
-                        // parameters: service_id, template_id, template_parameters
-                        var template_parameters = {to_email: email, reply_to: replyTo, to_name: name, from_name: "ICU QUOLL", message_html: content, subject: subject};
-                        emailjs.send("gmail","template_Ph1sznvQ",template_parameters);
-                    }
-                    alert("success");
-                    location.replace("index.html");
-
+                for (var i = 0; i < attendeesList.length; i++) {
+                    var name = attendeesList[i].split(',')[0];
+                    var email = attendeesList[i].split(',')[1];
+                    // get the subject
+                    var subject = document.getElementById("subject").value;
+                    // get the reply_to
+                    var replyTo = document.getElementById("reply_to").value;
+                    // get the email content
+                    var content = editor.getHTML();
+                    // parameters: service_id, template_id, template_parameters
+                    var template_parameters = {
+                        to_email: email,
+                        reply_to: replyTo,
+                        to_name: name,
+                        from_name: "ICU QUOLL",
+                        message_html: content,
+                        subject: subject
+                    };
+                    emailjs.send("gmail", "template_Ph1sznvQ", template_parameters);
+                }
+                alert("success");
+                location.replace("index.html");
 
 
             });
@@ -180,7 +187,7 @@
 
     <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script type="text/javascript">
-        (function(){
+        (function () {
             emailjs.init("user_UOdH8HVsWNRFGXwamipe5");
         })();
     </script>
@@ -193,8 +200,10 @@
         <h3 class="text-muted">ICU Quoll</h3>
 
         <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -239,11 +248,11 @@
     </div>
     <div class="list-group">
         <label>Send to:</label>
-        <a id = "all_attendees" href="#" class="list-group-item active">All attendees</a>
-        <a id = "selected_attendees" href="#" class="list-group-item">Selected attendees</a>
+        <a id="all_attendees" href="#" class="list-group-item active">All attendees</a>
+        <a id="selected_attendees" href="#" class="list-group-item">Selected attendees</a>
     </div>
     <div id="attendee_list"></div>
-        <tbody>
+    <tbody>
     <div class="row">
         <div class="col-centered">
             <textarea id="foo"></textarea>

@@ -15,7 +15,6 @@ function onloadFunction() {
         $("#event_package").addClass("disabled");
         $("#template_editor").addClass("disabled");
     } else {
-
         $("#mailbox_center").removeClass("disabled");
         $("#event_package").removeClass("disabled");
         $("#template_editor").removeClass("disabled");

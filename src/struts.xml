@@ -5,10 +5,10 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-<package name="com.eventbrite.action" extends="struts-default">
-    <action name="saveEventId" class="com.eventbrite.action.SaveEventIdAction" method="execute">
-        <result name="success">/index.html</result>
-        <result name="error">/error.html</result>
-    </action>
-</package>
+    <package name="com.eventbrite.action" extends="struts-default">
+        <action name="saveEventId" class="com.eventbrite.action.SaveEventIdAction" method="execute">
+            <result name="success">/index.html</result>
+            <result name="error">/error.html</result>
+        </action>
+    </package>
 </struts>

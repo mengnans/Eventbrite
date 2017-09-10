@@ -19,14 +19,13 @@
  *
  * <mxGraphModel>, <mxGraph>, <mxGraphView>, <mxEditor>, <mxCellOverlay>,
  * <mxToolbar>, <mxWindow>
- * 
+ *
  * Constructor: mxEventSource
  *
  * Constructs a new event source.
  */
-function mxEventSource(eventSource)
-{
-	this.setEventSource(eventSource);
+function mxEventSource(eventSource) {
+    this.setEventSource(eventSource);
 };
 
 /**
@@ -54,42 +53,38 @@ mxEventSource.prototype.eventSource = null;
 
 /**
  * Function: isEventsEnabled
- * 
+ *
  * Returns <eventsEnabled>.
  */
-mxEventSource.prototype.isEventsEnabled = function()
-{
-	return this.eventsEnabled;
+mxEventSource.prototype.isEventsEnabled = function () {
+    return this.eventsEnabled;
 };
 
 /**
  * Function: setEventsEnabled
- * 
+ *
  * Sets <eventsEnabled>.
  */
-mxEventSource.prototype.setEventsEnabled = function(value)
-{
-	this.eventsEnabled = value;
+mxEventSource.prototype.setEventsEnabled = function (value) {
+    this.eventsEnabled = value;
 };
 
 /**
  * Function: getEventSource
- * 
+ *
  * Returns <eventSource>.
  */
-mxEventSource.prototype.getEventSource = function()
-{
-	return this.eventSource;
+mxEventSource.prototype.getEventSource = function () {
+    return this.eventSource;
 };
 
 /**
  * Function: setEventSource
- * 
+ *
  * Sets <eventSource>.
  */
-mxEventSource.prototype.setEventSource = function(value)
-{
-	this.eventSource = value;
+mxEventSource.prototype.setEventSource = function (value) {
+    this.eventSource = value;
 };
 
 /**
@@ -97,18 +92,16 @@ mxEventSource.prototype.setEventSource = function(value)
  *
  * Binds the specified function to the given event name. If no event name
  * is given, then the listener is registered for all events.
- * 
+ *
  * The parameters of the listener are the sender and an <mxEventObject>.
  */
-mxEventSource.prototype.addListener = function(name, funct)
-{
-	if (this.eventListeners == null)
-	{
-		this.eventListeners = [];
-	}
-	
-	this.eventListeners.push(name);
-	this.eventListeners.push(funct);
+mxEventSource.prototype.addListener = function (name, funct) {
+    if (this.eventListeners == null) {
+        this.eventListeners = [];
+    }
+
+    this.eventListeners.push(name);
+    this.eventListeners.push(funct);
 };
 
 /**
@@ -116,24 +109,19 @@ mxEventSource.prototype.addListener = function(name, funct)
  *
  * Removes all occurrences of the given listener from <eventListeners>.
  */
-mxEventSource.prototype.removeListener = function(funct)
-{
-	if (this.eventListeners != null)
-	{
-		var i = 0;
-		
-		while (i < this.eventListeners.length)
-		{
-			if (this.eventListeners[i+1] == funct)
-			{
-				this.eventListeners.splice(i, 2);
-			}
-			else
-			{
-				i += 2;
-			}
-		}
-	}
+mxEventSource.prototype.removeListener = function (funct) {
+    if (this.eventListeners != null) {
+        var i = 0;
+
+        while (i < this.eventListeners.length) {
+            if (this.eventListeners[i + 1] == funct) {
+                this.eventListeners.splice(i, 2);
+            }
+            else {
+                i += 2;
+            }
+        }
+    }
 };
 
 /**
@@ -148,42 +136,35 @@ mxEventSource.prototype.removeListener = function(funct)
  * (code)
  * fireEvent(new mxEventObject("eventName", key1, val1, .., keyN, valN))
  * (end)
- * 
+ *
  * Parameters:
  *
  * evt - <mxEventObject> that represents the event.
  * sender - Optional sender to be passed to the listener. Default value is
  * the return value of <getEventSource>.
  */
-mxEventSource.prototype.fireEvent = function(evt, sender)
-{
-	if (this.eventListeners != null && this.isEventsEnabled())
-	{
-		if (evt == null)
-		{
-			evt = new mxEventObject();
-		}
-		
-		if (sender == null)
-		{
-			sender = this.getEventSource();
-		}
+mxEventSource.prototype.fireEvent = function (evt, sender) {
+    if (this.eventListeners != null && this.isEventsEnabled()) {
+        if (evt == null) {
+            evt = new mxEventObject();
+        }
 
-		if (sender == null)
-		{
-			sender = this;
-		}
+        if (sender == null) {
+            sender = this.getEventSource();
+        }
 
-		var args = [sender, evt];
-		
-		for (var i = 0; i < this.eventListeners.length; i += 2)
-		{
-			var listen = this.eventListeners[i];
-			
-			if (listen == null || listen == evt.getName())
-			{
-				this.eventListeners[i+1].apply(this, args);
-			}
-		}
-	}
+        if (sender == null) {
+            sender = this;
+        }
+
+        var args = [sender, evt];
+
+        for (var i = 0; i < this.eventListeners.length; i += 2) {
+            var listen = this.eventListeners[i];
+
+            if (listen == null || listen == evt.getName()) {
+                this.eventListeners[i + 1].apply(this, args);
+            }
+        }
+    }
 };

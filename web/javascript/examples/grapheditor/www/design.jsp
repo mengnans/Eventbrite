@@ -10,7 +10,8 @@
 <head>
     <title>Certificate Editor</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="styles/grapheditor.css">
 
     <script type="text/javascript">
@@ -19,21 +20,17 @@
         // - touch=1: Enables a touch-style user interface.
         // - storage=local: Enables HTML5 local storage.
         // - chrome=0: Chromeless mode.
-        var urlParams = (function(url)
-        {
+        var urlParams = (function (url) {
             var result = new Object();
             var idx = url.lastIndexOf('?');
 
-            if (idx > 0)
-            {
+            if (idx > 0) {
                 var params = url.substring(idx + 1).split('&');
 
-                for (var i = 0; i < params.length; i++)
-                {
+                for (var i = 0; i < params.length; i++) {
                     idx = params[i].indexOf('=');
 
-                    if (idx > 0)
-                    {
+                    if (idx > 0) {
                         result[params[i].substring(0, idx)] = params[i].substring(idx + 1);
                     }
                 }
@@ -64,25 +61,21 @@
 
 <script type="text/javascript">
     // Extends EditorUi to update I/O action states based on availability of backend
-    (function()
-    {
+    (function () {
         var editorUiInit = EditorUi.prototype.init;
 
-        EditorUi.prototype.init = function()
-        {
+        EditorUi.prototype.init = function () {
             editorUiInit.apply(this, arguments);
             this.actions.get('export').setEnabled(false);
 
             // Updates action states which require a backend
-            if (!Editor.useLocalStorage)
-            {
-                mxUtils.post(OPEN_URL, '', mxUtils.bind(this, function(req)
-                {
+            if (!Editor.useLocalStorage) {
+                mxUtils.post(OPEN_URL, '', mxUtils.bind(this, function (req) {
                     var enabled = req.getStatus() != 404;
-                   // this.actions.get('open').setEnabled(enabled || Graph.fileSupport);
+                    // this.actions.get('open').setEnabled(enabled || Graph.fileSupport);
                     this.actions.get('import').setEnabled(enabled || Graph.fileSupport);
-                   // this.actions.get('save').setEnabled();
-                   // this.actions.get('saveAs').setEnabled();
+                    // this.actions.get('save').setEnabled();
+                    // this.actions.get('saveAs').setEnabled();
                     this.actions.get('export').setEnabled();
                 }));
             }
@@ -95,8 +88,7 @@
             mxResources.getSpecialBundle(RESOURCE_BASE, mxLanguage);
 
         // Fixes possible asynchronous requests
-        mxUtils.getAll([bundle, STYLE_PATH + '/default.xml'], function(xhr)
-        {
+        mxUtils.getAll([bundle, STYLE_PATH + '/default.xml'], function (xhr) {
             // Adds bundle text to resources
             mxResources.parse(xhr[0].getText());
 
@@ -106,8 +98,7 @@
 
             // Main
             new EditorUi(new Editor(urlParams['chrome'] == '0', themes));
-        }, function()
-        {
+        }, function () {
             document.body.innerHTML = '<center style="margin-top:10%;">Error loading resource files. Please check browser console.</center>';
         });
     })();

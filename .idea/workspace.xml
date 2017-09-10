@@ -6,8 +6,321 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaa89d63-7590-47bb-94e0-739f9d5ba0ca" name="Default" comment="addd">
+    <list default="true" id="aaa89d63-7590-47bb-94e0-739f9d5ba0ca" name="Default" comment="test updating">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/eventbrite/action/SaveEventIdAction.java" afterPath="$PROJECT_DIR$/src/com/eventbrite/action/SaveEventIdAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.min.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.min.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/build/Squire-UI.css" afterPath="$PROJECT_DIR$/web/build/Squire-UI.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/build/Squire-UI.html" afterPath="$PROJECT_DIR$/web/build/Squire-UI.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/build/Squire-UI.js" afterPath="$PROJECT_DIR$/web/build/Squire-UI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/build/jQuery/jQuery.js" afterPath="$PROJECT_DIR$/web/build/jQuery/jQuery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/build/squire-raw.js" afterPath="$PROJECT_DIR$/web/build/squire-raw.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/htmleaf-demo.css" afterPath="$PROJECT_DIR$/web/css/htmleaf-demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/justified-nav.css" afterPath="$PROJECT_DIR$/web/css/justified-nav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/narrow-jumbotron.css" afterPath="$PROJECT_DIR$/web/css/narrow-jumbotron.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/select.css" afterPath="$PROJECT_DIR$/web/css/select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/error.html" afterPath="$PROJECT_DIR$/web/error.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/error.js" afterPath="$PROJECT_DIR$/web/javascript/error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/anchors.html" afterPath="$PROJECT_DIR$/web/javascript/examples/anchors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/animation.html" afterPath="$PROJECT_DIR$/web/javascript/examples/animation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/autolayout.html" afterPath="$PROJECT_DIR$/web/javascript/examples/autolayout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/boundary.html" afterPath="$PROJECT_DIR$/web/javascript/examples/boundary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/clipboard.html" afterPath="$PROJECT_DIR$/web/javascript/examples/clipboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/codec.html" afterPath="$PROJECT_DIR$/web/javascript/examples/codec.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/collapse.html" afterPath="$PROJECT_DIR$/web/javascript/examples/collapse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/constituent.html" afterPath="$PROJECT_DIR$/web/javascript/examples/constituent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/contexticons.html" afterPath="$PROJECT_DIR$/web/javascript/examples/contexticons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/control.html" afterPath="$PROJECT_DIR$/web/javascript/examples/control.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/dragsource.html" afterPath="$PROJECT_DIR$/web/javascript/examples/dragsource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/drop.html" afterPath="$PROJECT_DIR$/web/javascript/examples/drop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/dynamicloading.html" afterPath="$PROJECT_DIR$/web/javascript/examples/dynamicloading.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/dynamicstyle.html" afterPath="$PROJECT_DIR$/web/javascript/examples/dynamicstyle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/dynamictoolbar.html" afterPath="$PROJECT_DIR$/web/javascript/examples/dynamictoolbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/edgetolerance.html" afterPath="$PROJECT_DIR$/web/javascript/examples/edgetolerance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editing.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/diagrameditor.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/diagrameditor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/editor-commons.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/editor-commons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/keyhandler-commons.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/keyhandler-commons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/keyhandler-minimal.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/keyhandler-minimal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/layouteditor.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/layouteditor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/processeditor.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/processeditor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/wfeditor-commons.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/wfeditor-commons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/wfgraph-commons.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/wfgraph-commons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/wftoolbar-commons.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/wftoolbar-commons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/workfloweditor.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/workfloweditor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/css/process.css" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/css/process.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/css/wordpress.css" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/css/wordpress.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/diagrameditor.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrameditor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/empty.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/empty.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/swimlanes.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/swimlanes.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/travel-booking.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/travel-booking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/withdrawal.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/withdrawal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/grapheditor.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/grapheditor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/help/index-all.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/help/index-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/help/index.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/help/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/js/app.js" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/layouteditor.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/layouteditor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/processeditor.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/processeditor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/workfloweditor.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/workfloweditor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/events.html" afterPath="$PROJECT_DIR$/web/javascript/examples/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/extendcanvas.html" afterPath="$PROJECT_DIR$/web/javascript/examples/extendcanvas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/fileio.html" afterPath="$PROJECT_DIR$/web/javascript/examples/fileio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/fileio.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/fileio.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/fixedicon.html" afterPath="$PROJECT_DIR$/web/javascript/examples/fixedicon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/fixedpoints.html" afterPath="$PROJECT_DIR$/web/javascript/examples/fixedpoints.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/folding.html" afterPath="$PROJECT_DIR$/web/javascript/examples/folding.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/GraphEditor.java" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/GraphEditor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/OpenServlet.java" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/OpenServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/design.jsp" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/design.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/index.html" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Actions.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Actions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Dialogs.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Dialogs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Editor.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/EditorUi.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/EditorUi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Format.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Format.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Graph.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Graph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Init.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Menus.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Menus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Shapes.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Shapes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Sidebar.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Sidebar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Toolbar.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Toolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/jscolor/jscolor.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/jscolor/jscolor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/open.html" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/open.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/resources/help.html" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/resources/help.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/resources/help_de.html" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/resources/help_de.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/arrows.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/arrows.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/basic.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/basic.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/bpmn.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/bpmn.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/flowchart.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/flowchart.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/default.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/grapheditor.css" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/grapheditor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/help.css" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/help.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/viewer.html" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/viewer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/graphlayout.html" afterPath="$PROJECT_DIR$/web/javascript/examples/graphlayout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grid.html" afterPath="$PROJECT_DIR$/web/javascript/examples/grid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/groups.html" afterPath="$PROJECT_DIR$/web/javascript/examples/groups.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/guides.html" afterPath="$PROJECT_DIR$/web/javascript/examples/guides.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/handles.html" afterPath="$PROJECT_DIR$/web/javascript/examples/handles.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/helloport.html" afterPath="$PROJECT_DIR$/web/javascript/examples/helloport.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/helloworld.html" afterPath="$PROJECT_DIR$/web/javascript/examples/helloworld.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/hierarchicallayout.html" afterPath="$PROJECT_DIR$/web/javascript/examples/hierarchicallayout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/hovericons.html" afterPath="$PROJECT_DIR$/web/javascript/examples/hovericons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/hoverstyle.html" afterPath="$PROJECT_DIR$/web/javascript/examples/hoverstyle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/htmllabel.html" afterPath="$PROJECT_DIR$/web/javascript/examples/htmllabel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/ie9svg.html" afterPath="$PROJECT_DIR$/web/javascript/examples/ie9svg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/images.html" afterPath="$PROJECT_DIR$/web/javascript/examples/images.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/indicators.html" afterPath="$PROJECT_DIR$/web/javascript/examples/indicators.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/jquery.html" afterPath="$PROJECT_DIR$/web/javascript/examples/jquery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/jsondata.html" afterPath="$PROJECT_DIR$/web/javascript/examples/jsondata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/labelposition.html" afterPath="$PROJECT_DIR$/web/javascript/examples/labelposition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/labels.html" afterPath="$PROJECT_DIR$/web/javascript/examples/labels.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/layers.html" afterPath="$PROJECT_DIR$/web/javascript/examples/layers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/lod.html" afterPath="$PROJECT_DIR$/web/javascript/examples/lod.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/map.html" afterPath="$PROJECT_DIR$/web/javascript/examples/map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/markers.html" afterPath="$PROJECT_DIR$/web/javascript/examples/markers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/menustyle.html" afterPath="$PROJECT_DIR$/web/javascript/examples/menustyle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/merge.html" afterPath="$PROJECT_DIR$/web/javascript/examples/merge.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/monitor.html" afterPath="$PROJECT_DIR$/web/javascript/examples/monitor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/morph.html" afterPath="$PROJECT_DIR$/web/javascript/examples/morph.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/offpage.html" afterPath="$PROJECT_DIR$/web/javascript/examples/offpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/orgchart.html" afterPath="$PROJECT_DIR$/web/javascript/examples/orgchart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/orthogonal.html" afterPath="$PROJECT_DIR$/web/javascript/examples/orthogonal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/overlays.html" afterPath="$PROJECT_DIR$/web/javascript/examples/overlays.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/pagebreaks.html" afterPath="$PROJECT_DIR$/web/javascript/examples/pagebreaks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/perimeter.html" afterPath="$PROJECT_DIR$/web/javascript/examples/perimeter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/permissions.html" afterPath="$PROJECT_DIR$/web/javascript/examples/permissions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/portrefs.html" afterPath="$PROJECT_DIR$/web/javascript/examples/portrefs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/ports.html" afterPath="$PROJECT_DIR$/web/javascript/examples/ports.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/radialtreelayout.html" afterPath="$PROJECT_DIR$/web/javascript/examples/radialtreelayout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/schema.html" afterPath="$PROJECT_DIR$/web/javascript/examples/schema.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/scrollbars.html" afterPath="$PROJECT_DIR$/web/javascript/examples/scrollbars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/secondlabel.html" afterPath="$PROJECT_DIR$/web/javascript/examples/secondlabel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/serverview.html" afterPath="$PROJECT_DIR$/web/javascript/examples/serverview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/shape.html" afterPath="$PROJECT_DIR$/web/javascript/examples/shape.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/showregion.html" afterPath="$PROJECT_DIR$/web/javascript/examples/showregion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/standardsmode.html" afterPath="$PROJECT_DIR$/web/javascript/examples/standardsmode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/stencils.html" afterPath="$PROJECT_DIR$/web/javascript/examples/stencils.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/stencils.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/stencils.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/stylesheet.html" afterPath="$PROJECT_DIR$/web/javascript/examples/stylesheet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/swimlanes.html" afterPath="$PROJECT_DIR$/web/javascript/examples/swimlanes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/template.html" afterPath="$PROJECT_DIR$/web/javascript/examples/template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/thread.html" afterPath="$PROJECT_DIR$/web/javascript/examples/thread.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/toolbar.html" afterPath="$PROJECT_DIR$/web/javascript/examples/toolbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/touch.html" afterPath="$PROJECT_DIR$/web/javascript/examples/touch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/tree.html" afterPath="$PROJECT_DIR$/web/javascript/examples/tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/uiconfig.html" afterPath="$PROJECT_DIR$/web/javascript/examples/uiconfig.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/uiconfig.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/uiconfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/userobject.html" afterPath="$PROJECT_DIR$/web/javascript/examples/userobject.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/validation.html" afterPath="$PROJECT_DIR$/web/javascript/examples/validation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/visibility.html" afterPath="$PROJECT_DIR$/web/javascript/examples/visibility.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/webpack/anchors.html" afterPath="$PROJECT_DIR$/web/javascript/examples/webpack/anchors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/webpack/src/anchors.js" afterPath="$PROJECT_DIR$/web/javascript/examples/webpack/src/anchors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/windows.html" afterPath="$PROJECT_DIR$/web/javascript/examples/windows.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/wires.html" afterPath="$PROJECT_DIR$/web/javascript/examples/wires.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/wrapping.html" afterPath="$PROJECT_DIR$/web/javascript/examples/wrapping.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/web/javascript/ie10-viewport-bug-workaround.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/index.js" afterPath="$PROJECT_DIR$/web/javascript/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/mail.js" afterPath="$PROJECT_DIR$/web/javascript/mail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/mxClient.js" afterPath="$PROJECT_DIR$/web/javascript/mxClient.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/select.js" afterPath="$PROJECT_DIR$/web/javascript/select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/css/common.css" afterPath="$PROJECT_DIR$/web/javascript/src/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/css/explorer.css" afterPath="$PROJECT_DIR$/web/javascript/src/css/explorer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultKeyHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultKeyHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultPopupMenu.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultPopupMenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultToolbar.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultToolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/editor/mxEditor.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/editor/mxEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellHighlight.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellHighlight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellMarker.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellMarker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellTracker.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellTracker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxConnectionHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxConnectionHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxConstraintHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxConstraintHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxEdgeHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxEdgeHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxEdgeSegmentHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxEdgeSegmentHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxElbowEdgeHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxElbowEdgeHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxGraphHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxGraphHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxHandle.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxHandle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxKeyHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxKeyHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxPanningHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxPanningHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxPopupMenuHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxPopupMenuHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxRubberband.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxRubberband.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxSelectionCellsHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxSelectionCellsHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxTooltipHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxTooltipHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxVertexHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxVertexHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxCellCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxCellCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxChildChangeCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxChildChangeCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxCodecRegistry.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxCodecRegistry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultKeyHandlerCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultKeyHandlerCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultPopupMenuCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultPopupMenuCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultToolbarCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultToolbarCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxEditorCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxEditorCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxGenericChangeCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxGenericChangeCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxGraphCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxGraphCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxGraphViewCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxGraphViewCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxModelCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxModelCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxObjectCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxObjectCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxRootChangeCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxRootChangeCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxStylesheetCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxStylesheetCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxTerminalChangeCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxTerminalChangeCodec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphAbstractHierarchyCell.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphAbstractHierarchyCell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyEdge.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyEdge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyModel.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyNode.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyNode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxSwimlaneModel.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxSwimlaneModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/mxHierarchicalLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/mxHierarchicalLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/mxSwimlaneLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/mxSwimlaneLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxCoordinateAssignment.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxCoordinateAssignment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxHierarchicalLayoutStage.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxHierarchicalLayoutStage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxMedianHybridCrossingReduction.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxMedianHybridCrossingReduction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxMinimumCycleRemover.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxMinimumCycleRemover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxSwimlaneOrdering.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxSwimlaneOrdering.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCircleLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCircleLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCompactTreeLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCompactTreeLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCompositeLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCompositeLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxEdgeLabelLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxEdgeLabelLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxFastOrganicLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxFastOrganicLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxGraphLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxGraphLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxParallelEdgeLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxParallelEdgeLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxPartitionLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxPartitionLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxRadialTreeLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxRadialTreeLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxStackLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxStackLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/model/mxCell.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/model/mxCell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/model/mxCellPath.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/model/mxCellPath.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/model/mxGeometry.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/model/mxGeometry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/model/mxGraphModel.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/model/mxGraphModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/mxClient.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/mxClient.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxActor.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxActor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxArrow.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxArrow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxArrowConnector.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxArrowConnector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxCloud.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxCloud.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxConnector.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxConnector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxCylinder.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxCylinder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxDoubleEllipse.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxDoubleEllipse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxEllipse.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxEllipse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxHexagon.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxHexagon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxImageShape.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxImageShape.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxLabel.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxLabel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxLine.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxLine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxMarker.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxMarker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxPolyline.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxPolyline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxRectangleShape.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxRectangleShape.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxRhombus.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxRhombus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxShape.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxShape.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxStencil.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxStencil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxStencilRegistry.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxStencilRegistry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxSwimlane.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxSwimlane.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxText.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxText.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxTriangle.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxTriangle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxAbstractCanvas2D.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxAbstractCanvas2D.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxAnimation.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxAnimation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxAutoSaveManager.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxAutoSaveManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxClipboard.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxClipboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxConstants.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxConstants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxDictionary.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxDictionary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxDivResizer.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxDivResizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxDragSource.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxDragSource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxEffects.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxEffects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxEvent.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxEvent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxEventObject.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxEventObject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxEventSource.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxEventSource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxForm.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxGuide.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxGuide.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxImage.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxImage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxImageBundle.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxImageBundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxImageExport.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxImageExport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxLog.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxLog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxMorphing.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxMorphing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxMouseEvent.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxMouseEvent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxObjectIdentity.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxObjectIdentity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxPanningManager.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxPanningManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxPoint.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxPoint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxPopupMenu.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxPopupMenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxRectangle.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxRectangle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxResources.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxResources.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxSvgCanvas2D.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxSvgCanvas2D.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxToolbar.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxToolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxUndoManager.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxUndoManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxUndoableEdit.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxUndoableEdit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxUrlConverter.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxUrlConverter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxUtils.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxUtils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxVmlCanvas2D.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxVmlCanvas2D.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxWindow.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxWindow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxXmlCanvas2D.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxXmlCanvas2D.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxXmlRequest.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxXmlRequest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellEditor.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellOverlay.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellOverlay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellRenderer.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellRenderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellState.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellState.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellStatePreview.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellStatePreview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxConnectionConstraint.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxConnectionConstraint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxEdgeStyle.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxEdgeStyle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraph.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraphSelectionModel.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraphSelectionModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraphView.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraphView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxLayoutManager.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxLayoutManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxMultiplicity.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxMultiplicity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxOutline.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxOutline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxPerimeter.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxPerimeter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxPrintPreview.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxPrintPreview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxStyleRegistry.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxStyleRegistry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxStylesheet.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxStylesheet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxSwimlaneManager.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxSwimlaneManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxTemporaryCellStates.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxTemporaryCellStates.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.html" afterPath="$PROJECT_DIR$/web/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/mail.html" afterPath="$PROJECT_DIR$/web/mail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/select.html" afterPath="$PROJECT_DIR$/web/select.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +332,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/javascript/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="374">
+              <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="error.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/javascript/error.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="20" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -43,7 +356,7 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -53,7 +366,7 @@
         <entry file="file://$PROJECT_DIR$/src/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -84,6 +397,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Colin5887 &lt;rChansey5887@gmail.com&gt;" />
         <option value="mengnas &lt;thundersmn@outlook.com&gt;" />
         <option value="thundersmn@outlook.com" />
         <option value="mengnans" />
@@ -111,10 +425,10 @@
         <option value="$PROJECT_DIR$/src/com/eventbrite/action/AttendeeAction.java" />
         <option value="$PROJECT_DIR$/src/struts.xml" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/javascript/error.js" />
         <option value="$PROJECT_DIR$/web/new.jsp" />
         <option value="$PROJECT_DIR$/web/javascript/new.js" />
         <option value="$PROJECT_DIR$/web/javascript/index.js" />
+        <option value="$PROJECT_DIR$/web/javascript/error.js" />
       </list>
     </option>
   </component>
@@ -138,6 +452,7 @@
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -162,39 +477,6 @@
             <path>
               <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,6 +506,117 @@
       <recent name="F:\Eventbrite\web\javascript" />
       <recent name="F:\Eventbrite\web" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/javascript/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/mail.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -474,7 +867,7 @@
       <updated>1503909843559</updated>
       <workItem from="1503909845166" duration="14838000" />
       <workItem from="1503932535445" duration="2000" />
-      <workItem from="1505015395994" duration="42000" />
+      <workItem from="1505015395994" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="update struct 2.3 @Mengnan Shi">
       <created>1503911243422</created>
@@ -497,11 +890,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503911811940</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test updating">
+      <created>1505015518868</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505015518868</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14882000" />
+    <option name="totallyTimeSpent" value="15230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="-8" width="1856" height="1096" extended-state="6" />
@@ -524,6 +924,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25278395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -537,7 +938,6 @@
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +948,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update struct 2.3 @Mengnan Shi" />
-    <option name="LAST_COMMIT_MESSAGE" value="update struct 2.3 @Mengnan Shi" />
+    <MESSAGE value="test updating" />
+    <option name="LAST_COMMIT_MESSAGE" value="test updating" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -679,7 +1080,7 @@
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -688,7 +1089,7 @@
     <entry file="file://$PROJECT_DIR$/src/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -699,24 +1100,24 @@
     <entry file="file://$PROJECT_DIR$/web/login.jsp" />
     <entry file="file://$PROJECT_DIR$/src/com/eventbrite/action/AttendeeAction.java" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/javascript/error.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/javascript/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="374">
+          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/new.jsp" />
     <entry file="file://$PROJECT_DIR$/web/javascript/new.js" />
+    <entry file="file://$PROJECT_DIR$/web/javascript/error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
