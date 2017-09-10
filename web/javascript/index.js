@@ -11,8 +11,6 @@ function onloadFunction() {
         }
     }
     if (getCookie("eventId") == "") {
-        int
-        i = 0;
         $("#mailbox_center").addClass("disabled");
         $("#event_package").addClass("disabled");
         $("#template_editor").addClass("disabled");
