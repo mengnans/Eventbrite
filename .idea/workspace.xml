@@ -7,320 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaa89d63-7590-47bb-94e0-739f9d5ba0ca" name="Default" comment="test updating">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/eventbrite/action/SaveAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/eventbrite/action/SaveEventIdAction.java" afterPath="$PROJECT_DIR$/src/com/eventbrite/action/SaveEventIdAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.min.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-grid.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.min.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-reboot.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/build/Squire-UI.css" afterPath="$PROJECT_DIR$/web/build/Squire-UI.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/build/Squire-UI.html" afterPath="$PROJECT_DIR$/web/build/Squire-UI.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/build/Squire-UI.js" afterPath="$PROJECT_DIR$/web/build/Squire-UI.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/build/jQuery/jQuery.js" afterPath="$PROJECT_DIR$/web/build/jQuery/jQuery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/build/squire-raw.js" afterPath="$PROJECT_DIR$/web/build/squire-raw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/htmleaf-demo.css" afterPath="$PROJECT_DIR$/web/css/htmleaf-demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/justified-nav.css" afterPath="$PROJECT_DIR$/web/css/justified-nav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/narrow-jumbotron.css" afterPath="$PROJECT_DIR$/web/css/narrow-jumbotron.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/select.css" afterPath="$PROJECT_DIR$/web/css/select.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/error.html" afterPath="$PROJECT_DIR$/web/error.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/error.js" afterPath="$PROJECT_DIR$/web/javascript/error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/anchors.html" afterPath="$PROJECT_DIR$/web/javascript/examples/anchors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/animation.html" afterPath="$PROJECT_DIR$/web/javascript/examples/animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/autolayout.html" afterPath="$PROJECT_DIR$/web/javascript/examples/autolayout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/boundary.html" afterPath="$PROJECT_DIR$/web/javascript/examples/boundary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/clipboard.html" afterPath="$PROJECT_DIR$/web/javascript/examples/clipboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/codec.html" afterPath="$PROJECT_DIR$/web/javascript/examples/codec.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/collapse.html" afterPath="$PROJECT_DIR$/web/javascript/examples/collapse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/constituent.html" afterPath="$PROJECT_DIR$/web/javascript/examples/constituent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/contexticons.html" afterPath="$PROJECT_DIR$/web/javascript/examples/contexticons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/control.html" afterPath="$PROJECT_DIR$/web/javascript/examples/control.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/dragsource.html" afterPath="$PROJECT_DIR$/web/javascript/examples/dragsource.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/drop.html" afterPath="$PROJECT_DIR$/web/javascript/examples/drop.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/dynamicloading.html" afterPath="$PROJECT_DIR$/web/javascript/examples/dynamicloading.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/dynamicstyle.html" afterPath="$PROJECT_DIR$/web/javascript/examples/dynamicstyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/dynamictoolbar.html" afterPath="$PROJECT_DIR$/web/javascript/examples/dynamictoolbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/edgetolerance.html" afterPath="$PROJECT_DIR$/web/javascript/examples/edgetolerance.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editing.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/diagrameditor.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/diagrameditor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/editor-commons.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/editor-commons.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/keyhandler-commons.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/keyhandler-commons.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/keyhandler-minimal.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/keyhandler-minimal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/layouteditor.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/layouteditor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/processeditor.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/processeditor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/wfeditor-commons.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/wfeditor-commons.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/wfgraph-commons.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/wfgraph-commons.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/wftoolbar-commons.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/wftoolbar-commons.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/config/workfloweditor.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/config/workfloweditor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/css/process.css" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/css/process.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/css/wordpress.css" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/css/wordpress.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/diagrameditor.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrameditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/empty.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/empty.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/swimlanes.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/swimlanes.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/travel-booking.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/travel-booking.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/withdrawal.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/diagrams/withdrawal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/grapheditor.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/grapheditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/help/index-all.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/help/index-all.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/help/index.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/help/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/js/app.js" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/layouteditor.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/layouteditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/processeditor.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/processeditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/editors/workfloweditor.html" afterPath="$PROJECT_DIR$/web/javascript/examples/editors/workfloweditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/events.html" afterPath="$PROJECT_DIR$/web/javascript/examples/events.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/extendcanvas.html" afterPath="$PROJECT_DIR$/web/javascript/examples/extendcanvas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/fileio.html" afterPath="$PROJECT_DIR$/web/javascript/examples/fileio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/fileio.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/fileio.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/fixedicon.html" afterPath="$PROJECT_DIR$/web/javascript/examples/fixedicon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/fixedpoints.html" afterPath="$PROJECT_DIR$/web/javascript/examples/fixedpoints.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/folding.html" afterPath="$PROJECT_DIR$/web/javascript/examples/folding.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/GraphEditor.java" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/GraphEditor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/OpenServlet.java" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/java/src/com/mxgraph/examples/web/OpenServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/design.jsp" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/design.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/index.html" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Actions.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Dialogs.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Dialogs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Editor.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Editor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/EditorUi.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/EditorUi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Format.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Format.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Graph.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Graph.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Init.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Menus.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Menus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Shapes.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Shapes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Sidebar.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Sidebar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Toolbar.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/js/Toolbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/jscolor/jscolor.js" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/jscolor/jscolor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/open.html" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/open.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/resources/help.html" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/resources/help.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/resources/help_de.html" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/resources/help_de.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/arrows.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/arrows.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/basic.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/basic.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/bpmn.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/bpmn.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/flowchart.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/stencils/flowchart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/default.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/grapheditor.css" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/grapheditor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/help.css" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/styles/help.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/viewer.html" afterPath="$PROJECT_DIR$/web/javascript/examples/grapheditor/www/viewer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/graphlayout.html" afterPath="$PROJECT_DIR$/web/javascript/examples/graphlayout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/grid.html" afterPath="$PROJECT_DIR$/web/javascript/examples/grid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/groups.html" afterPath="$PROJECT_DIR$/web/javascript/examples/groups.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/guides.html" afterPath="$PROJECT_DIR$/web/javascript/examples/guides.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/handles.html" afterPath="$PROJECT_DIR$/web/javascript/examples/handles.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/helloport.html" afterPath="$PROJECT_DIR$/web/javascript/examples/helloport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/helloworld.html" afterPath="$PROJECT_DIR$/web/javascript/examples/helloworld.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/hierarchicallayout.html" afterPath="$PROJECT_DIR$/web/javascript/examples/hierarchicallayout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/hovericons.html" afterPath="$PROJECT_DIR$/web/javascript/examples/hovericons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/hoverstyle.html" afterPath="$PROJECT_DIR$/web/javascript/examples/hoverstyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/htmllabel.html" afterPath="$PROJECT_DIR$/web/javascript/examples/htmllabel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/ie9svg.html" afterPath="$PROJECT_DIR$/web/javascript/examples/ie9svg.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/images.html" afterPath="$PROJECT_DIR$/web/javascript/examples/images.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/indicators.html" afterPath="$PROJECT_DIR$/web/javascript/examples/indicators.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/jquery.html" afterPath="$PROJECT_DIR$/web/javascript/examples/jquery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/jsondata.html" afterPath="$PROJECT_DIR$/web/javascript/examples/jsondata.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/labelposition.html" afterPath="$PROJECT_DIR$/web/javascript/examples/labelposition.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/labels.html" afterPath="$PROJECT_DIR$/web/javascript/examples/labels.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/layers.html" afterPath="$PROJECT_DIR$/web/javascript/examples/layers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/lod.html" afterPath="$PROJECT_DIR$/web/javascript/examples/lod.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/map.html" afterPath="$PROJECT_DIR$/web/javascript/examples/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/markers.html" afterPath="$PROJECT_DIR$/web/javascript/examples/markers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/menustyle.html" afterPath="$PROJECT_DIR$/web/javascript/examples/menustyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/merge.html" afterPath="$PROJECT_DIR$/web/javascript/examples/merge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/monitor.html" afterPath="$PROJECT_DIR$/web/javascript/examples/monitor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/morph.html" afterPath="$PROJECT_DIR$/web/javascript/examples/morph.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/offpage.html" afterPath="$PROJECT_DIR$/web/javascript/examples/offpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/orgchart.html" afterPath="$PROJECT_DIR$/web/javascript/examples/orgchart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/orthogonal.html" afterPath="$PROJECT_DIR$/web/javascript/examples/orthogonal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/overlays.html" afterPath="$PROJECT_DIR$/web/javascript/examples/overlays.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/pagebreaks.html" afterPath="$PROJECT_DIR$/web/javascript/examples/pagebreaks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/perimeter.html" afterPath="$PROJECT_DIR$/web/javascript/examples/perimeter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/permissions.html" afterPath="$PROJECT_DIR$/web/javascript/examples/permissions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/portrefs.html" afterPath="$PROJECT_DIR$/web/javascript/examples/portrefs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/ports.html" afterPath="$PROJECT_DIR$/web/javascript/examples/ports.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/radialtreelayout.html" afterPath="$PROJECT_DIR$/web/javascript/examples/radialtreelayout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/schema.html" afterPath="$PROJECT_DIR$/web/javascript/examples/schema.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/scrollbars.html" afterPath="$PROJECT_DIR$/web/javascript/examples/scrollbars.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/secondlabel.html" afterPath="$PROJECT_DIR$/web/javascript/examples/secondlabel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/serverview.html" afterPath="$PROJECT_DIR$/web/javascript/examples/serverview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/shape.html" afterPath="$PROJECT_DIR$/web/javascript/examples/shape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/showregion.html" afterPath="$PROJECT_DIR$/web/javascript/examples/showregion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/standardsmode.html" afterPath="$PROJECT_DIR$/web/javascript/examples/standardsmode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/stencils.html" afterPath="$PROJECT_DIR$/web/javascript/examples/stencils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/stencils.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/stencils.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/stylesheet.html" afterPath="$PROJECT_DIR$/web/javascript/examples/stylesheet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/swimlanes.html" afterPath="$PROJECT_DIR$/web/javascript/examples/swimlanes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/template.html" afterPath="$PROJECT_DIR$/web/javascript/examples/template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/thread.html" afterPath="$PROJECT_DIR$/web/javascript/examples/thread.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/toolbar.html" afterPath="$PROJECT_DIR$/web/javascript/examples/toolbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/touch.html" afterPath="$PROJECT_DIR$/web/javascript/examples/touch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/tree.html" afterPath="$PROJECT_DIR$/web/javascript/examples/tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/uiconfig.html" afterPath="$PROJECT_DIR$/web/javascript/examples/uiconfig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/uiconfig.xml" afterPath="$PROJECT_DIR$/web/javascript/examples/uiconfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/userobject.html" afterPath="$PROJECT_DIR$/web/javascript/examples/userobject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/validation.html" afterPath="$PROJECT_DIR$/web/javascript/examples/validation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/visibility.html" afterPath="$PROJECT_DIR$/web/javascript/examples/visibility.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/webpack/anchors.html" afterPath="$PROJECT_DIR$/web/javascript/examples/webpack/anchors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/webpack/src/anchors.js" afterPath="$PROJECT_DIR$/web/javascript/examples/webpack/src/anchors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/windows.html" afterPath="$PROJECT_DIR$/web/javascript/examples/windows.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/wires.html" afterPath="$PROJECT_DIR$/web/javascript/examples/wires.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/examples/wrapping.html" afterPath="$PROJECT_DIR$/web/javascript/examples/wrapping.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/web/javascript/ie10-viewport-bug-workaround.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/index.js" afterPath="$PROJECT_DIR$/web/javascript/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/mail.js" afterPath="$PROJECT_DIR$/web/javascript/mail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/mxClient.js" afterPath="$PROJECT_DIR$/web/javascript/mxClient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/select.js" afterPath="$PROJECT_DIR$/web/javascript/select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/css/common.css" afterPath="$PROJECT_DIR$/web/javascript/src/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/css/explorer.css" afterPath="$PROJECT_DIR$/web/javascript/src/css/explorer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultKeyHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultKeyHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultPopupMenu.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultPopupMenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultToolbar.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/editor/mxDefaultToolbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/editor/mxEditor.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/editor/mxEditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellHighlight.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellHighlight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellMarker.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellMarker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellTracker.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxCellTracker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxConnectionHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxConnectionHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxConstraintHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxConstraintHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxEdgeHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxEdgeHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxEdgeSegmentHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxEdgeSegmentHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxElbowEdgeHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxElbowEdgeHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxGraphHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxGraphHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxHandle.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxHandle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxKeyHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxKeyHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxPanningHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxPanningHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxPopupMenuHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxPopupMenuHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxRubberband.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxRubberband.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxSelectionCellsHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxSelectionCellsHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxTooltipHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxTooltipHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/handler/mxVertexHandler.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/handler/mxVertexHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxCellCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxCellCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxChildChangeCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxChildChangeCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxCodecRegistry.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxCodecRegistry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultKeyHandlerCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultKeyHandlerCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultPopupMenuCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultPopupMenuCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultToolbarCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxDefaultToolbarCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxEditorCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxEditorCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxGenericChangeCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxGenericChangeCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxGraphCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxGraphCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxGraphViewCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxGraphViewCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxModelCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxModelCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxObjectCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxObjectCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxRootChangeCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxRootChangeCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxStylesheetCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxStylesheetCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/io/mxTerminalChangeCodec.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/io/mxTerminalChangeCodec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphAbstractHierarchyCell.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphAbstractHierarchyCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyEdge.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyEdge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyModel.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyNode.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxGraphHierarchyNode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxSwimlaneModel.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/model/mxSwimlaneModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/mxHierarchicalLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/mxHierarchicalLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/mxSwimlaneLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/mxSwimlaneLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxCoordinateAssignment.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxCoordinateAssignment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxHierarchicalLayoutStage.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxHierarchicalLayoutStage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxMedianHybridCrossingReduction.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxMedianHybridCrossingReduction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxMinimumCycleRemover.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxMinimumCycleRemover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxSwimlaneOrdering.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/hierarchical/stage/mxSwimlaneOrdering.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCircleLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCircleLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCompactTreeLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCompactTreeLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCompositeLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxCompositeLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxEdgeLabelLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxEdgeLabelLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxFastOrganicLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxFastOrganicLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxGraphLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxGraphLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxParallelEdgeLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxParallelEdgeLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxPartitionLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxPartitionLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxRadialTreeLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxRadialTreeLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/layout/mxStackLayout.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/layout/mxStackLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/model/mxCell.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/model/mxCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/model/mxCellPath.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/model/mxCellPath.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/model/mxGeometry.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/model/mxGeometry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/model/mxGraphModel.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/model/mxGraphModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/mxClient.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/mxClient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxActor.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxActor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxArrow.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxArrow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxArrowConnector.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxArrowConnector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxCloud.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxCloud.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxConnector.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxConnector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxCylinder.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxCylinder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxDoubleEllipse.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxDoubleEllipse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxEllipse.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxEllipse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxHexagon.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxHexagon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxImageShape.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxImageShape.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxLabel.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxLabel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxLine.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxLine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxMarker.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxMarker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxPolyline.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxPolyline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxRectangleShape.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxRectangleShape.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxRhombus.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxRhombus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxShape.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxShape.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxStencil.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxStencil.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxStencilRegistry.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxStencilRegistry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxSwimlane.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxSwimlane.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxText.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxText.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/shape/mxTriangle.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/shape/mxTriangle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxAbstractCanvas2D.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxAbstractCanvas2D.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxAnimation.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxAnimation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxAutoSaveManager.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxAutoSaveManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxClipboard.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxClipboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxConstants.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxConstants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxDictionary.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxDictionary.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxDivResizer.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxDivResizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxDragSource.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxDragSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxEffects.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxEffects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxEvent.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxEvent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxEventObject.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxEventObject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxEventSource.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxEventSource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxForm.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxGuide.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxGuide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxImage.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxImage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxImageBundle.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxImageBundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxImageExport.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxImageExport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxLog.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxLog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxMorphing.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxMorphing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxMouseEvent.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxMouseEvent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxObjectIdentity.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxObjectIdentity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxPanningManager.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxPanningManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxPoint.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxPoint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxPopupMenu.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxPopupMenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxRectangle.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxRectangle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxResources.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxResources.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxSvgCanvas2D.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxSvgCanvas2D.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxToolbar.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxToolbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxUndoManager.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxUndoManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxUndoableEdit.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxUndoableEdit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxUrlConverter.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxUrlConverter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxUtils.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxVmlCanvas2D.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxVmlCanvas2D.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxWindow.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxWindow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxXmlCanvas2D.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxXmlCanvas2D.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/util/mxXmlRequest.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/util/mxXmlRequest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellEditor.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellEditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellOverlay.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellOverlay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellRenderer.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellRenderer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellState.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellState.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellStatePreview.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxCellStatePreview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxConnectionConstraint.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxConnectionConstraint.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxEdgeStyle.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxEdgeStyle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraph.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraph.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraphSelectionModel.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraphSelectionModel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraphView.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxGraphView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxLayoutManager.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxLayoutManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxMultiplicity.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxMultiplicity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxOutline.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxOutline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxPerimeter.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxPerimeter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxPrintPreview.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxPrintPreview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxStyleRegistry.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxStyleRegistry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxStylesheet.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxStylesheet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxSwimlaneManager.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxSwimlaneManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/javascript/src/js/view/mxTemporaryCellStates.js" afterPath="$PROJECT_DIR$/web/javascript/src/js/view/mxTemporaryCellStates.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.html" afterPath="$PROJECT_DIR$/web/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/mail.html" afterPath="$PROJECT_DIR$/web/mail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/select.html" afterPath="$PROJECT_DIR$/web/select.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -335,43 +25,168 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/javascript/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+            <state relative-caret-position="390">
+              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <marker date="1505015894264" expanded="true" signature="1510:1970" ph="..." />
+                <marker date="1505015894264" expanded="true" signature="1593:1642" ph="..." />
+                <marker date="1505015894264" expanded="false" signature="1606:1612" ph="©" />
+                <marker date="1505015894264" expanded="true" signature="1677:1755" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/mail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-630">
+              <caret line="93" column="13" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+              <folding>
+                <marker date="1505015894273" expanded="true" signature="10182:10628" ph="..." />
+                <marker date="1505015894273" expanded="true" signature="10182:10636" ph="..." />
+                <marker date="1505015894273" expanded="true" signature="10214:10318" ph="..." />
+                <marker date="1505015894273" expanded="true" signature="10249:10307" ph="..." />
+                <marker date="1505015894273" expanded="true" signature="10426:10524" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="76" column="108" lean-forward="false" selection-start-line="76" selection-start-column="108" selection-end-line="76" selection-end-column="108" />
+              <folding>
+                <element signature="e#3080#3087#0" expanded="true" />
+                <element signature="e#3464#3471#0" expanded="true" />
+                <marker date="1505018935202" expanded="false" signature="3956:3962" ph="©" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="design.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/www/design.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="36" />
+              <folding>
+                <marker date="1505015892264" expanded="true" signature="4453:4468" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/error.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+              <folding>
+                <marker date="1505015891943" expanded="true" signature="212:417" ph="..." />
+                <marker date="1505015891943" expanded="true" signature="219:348" ph="..." />
+                <marker date="1505015891943" expanded="true" signature="363:409" ph="..." />
+                <marker date="1505015891943" expanded="true" signature="386:401" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <marker date="1505021882032" expanded="true" signature="94893:94907" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="94942:97625" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="94955:97610" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95009:95404" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95028:95389" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95152:95369" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95192:95335" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95213:95313" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95454:95765" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95473:95750" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95552:95730" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95592:95696" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95613:95674" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95816:96081" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95835:96066" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95868:96046" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95908:96012" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="95929:95990" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96124:96430" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96143:96415" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96217:96395" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96257:96361" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96278:96339" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96481:96833" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96500:96818" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96581:96798" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96621:96764" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96642:96742" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96868:97174" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96887:97159" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="96961:97139" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="97001:97105" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="97022:97083" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="97226:97596" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="97245:97581" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="97383:97561" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="97423:97527" ph="..." />
+                <marker date="1505021882032" expanded="true" signature="97444:97505" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/javascript/error.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="600">
+              <caret line="20" column="1" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <marker date="1505015891958" expanded="true" signature="333:576" ph="{...}" />
+                <marker date="1505015891958" expanded="true" signature="409:452" ph="{...}" />
+                <marker date="1505015891958" expanded="true" signature="487:553" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/struts.xml">
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="360">
+              <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="SaveAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/eventbrite/action/SaveAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -392,6 +207,8 @@
       <find>atte</find>
       <find>Design</find>
       <find>jquery</find>
+      <find>template</find>
+      <find>export</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -423,12 +240,14 @@
         <option value="$PROJECT_DIR$/web/error.jsp" />
         <option value="$PROJECT_DIR$/src/com/eventbrite/action/HomeAction.java" />
         <option value="$PROJECT_DIR$/src/com/eventbrite/action/AttendeeAction.java" />
-        <option value="$PROJECT_DIR$/src/struts.xml" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/new.jsp" />
         <option value="$PROJECT_DIR$/web/javascript/new.js" />
         <option value="$PROJECT_DIR$/web/javascript/index.js" />
         <option value="$PROJECT_DIR$/web/javascript/error.js" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/src/struts.xml" />
+        <option value="$PROJECT_DIR$/src/com/eventbrite/action/SaveAction.java" />
       </list>
     </option>
   </component>
@@ -470,7 +289,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -478,13 +299,44 @@
               <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -502,6 +354,9 @@
     <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eventbrite.action" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Eventbrite\web\javascript" />
       <recent name="F:\Eventbrite\web" />
@@ -521,8 +376,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/javascript/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/mail.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -615,6 +468,652 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/javascript/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/mail.html</PATH>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
@@ -901,43 +1400,67 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15230000" />
+    <option name="totallyTimeSpent" value="19209000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="-8" width="1856" height="1096" extended-state="6" />
+    <frame x="75" y="-9" width="1854" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.50403875" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.49596122" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15522876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979655" sideWeight="0.49811524" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.50403875" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979655" sideWeight="0.49811524" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.50403875" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.49596122" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25278395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979655" sideWeight="0.49811524" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -953,11 +1476,91 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/lib/ognl.jar!/ognl/OgnlRuntime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="446" column="0" lean-forward="false" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ognl.jar!/ognl/ObjectArrayPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/xwork-core.jar!/com/opensymphony/xwork2/ognl/accessor/XWorkMethodAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/ie10-viewport-bug-workaround.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/error.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/com/eventbrite/action/AttendeeAction.java" />
+    <entry file="file://$PROJECT_DIR$/web/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/javascript/error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1505015891958" expanded="true" signature="333:576" ph="{...}" />
+            <marker date="1505015891958" expanded="true" signature="409:452" ph="{...}" />
+            <marker date="1505015891958" expanded="true" signature="487:553" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/new.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/javascript/new.js" />
+    <entry file="file://$PROJECT_DIR$/web/javascript/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/javascript/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -970,7 +1573,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1505015891958" expanded="true" signature="333:576" ph="{...}" />
+            <marker date="1505015891958" expanded="true" signature="409:452" ph="{...}" />
+            <marker date="1505015891958" expanded="true" signature="487:553" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,7 +1612,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="20" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1505015891958" expanded="true" signature="333:576" ph="{...}" />
+            <marker date="1505015891958" expanded="true" signature="409:452" ph="{...}" />
+            <marker date="1505015891958" expanded="true" signature="487:553" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,24 +1697,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/error.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp" />
     <entry file="file://$PROJECT_DIR$/src/com/eventbrite/action/AttendeeAction.java" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp" />
     <entry file="file://$PROJECT_DIR$/web/javascript/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        <state relative-caret-position="390">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1112,8 +1712,69 @@
     <entry file="file://$PROJECT_DIR$/web/javascript/new.js" />
     <entry file="file://$PROJECT_DIR$/web/javascript/error.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="600">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1505015891958" expanded="true" signature="333:576" ph="{...}" />
+            <marker date="1505015891958" expanded="true" signature="409:452" ph="{...}" />
+            <marker date="1505015891958" expanded="true" signature="487:553" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="76" column="108" lean-forward="false" selection-start-line="76" selection-start-column="108" selection-end-line="76" selection-end-column="108" />
+          <folding>
+            <element signature="e#3080#3087#0" expanded="true" />
+            <element signature="e#3464#3471#0" expanded="true" />
+            <marker date="1505018935202" expanded="false" signature="3956:3962" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/javascript/examples/grapheditor/www/design.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="36" />
+          <folding>
+            <marker date="1505015892264" expanded="true" signature="4453:4468" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/eventbrite/action/SaveAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
