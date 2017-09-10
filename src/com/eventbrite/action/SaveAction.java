@@ -23,8 +23,12 @@ public class SaveAction extends ActionSupport implements ServletResponseAware, S
       while(names.hasMoreElements()){
          System.out.println(names.nextElement());
       }
-      Object object = servletRequest.getParameter("xml");
-      System.out.println(object.getClass().getName());
+      String xml = servletRequest.getParameter("xml");
+      String format = servletRequest.getParameter("format");
+      String filename = servletRequest.getParameter("filename");
+      System.out.println(xml);
+      System.out.println(format);
+      System.out.println(filename);
       return "success";
    }
 
