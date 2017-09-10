@@ -33,7 +33,9 @@
                             var xmlDocument = mxUtils.parseXml(xml);
 
                             if (xmlDocument.documentElement != null && xmlDocument.documentElement.nodeName == 'mxGraphModel') {
+                                alert(xmlDocument.toString());
                                 var decoder = new mxCodec(xmlDocument);
+
                                 var node = xmlDocument.documentElement;
 
                                 container.innerHTML = '';
@@ -131,26 +133,12 @@
 <body>
 <!-- Contains a graph description which will be converted. -->
 This graph is embedded in the page.
-<div class="mxgraph" style="position:relative;overflow:auto;">&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell
-    id="0"/&gt;&lt;mxCell id="1" parent="0"/&gt;&lt;mxCell id="2" vertex="1" parent="1"
-    value="Interval 1"&gt;&lt;mxGeometry x="380" y="0" width="140" height="30" as="geometry"/&gt;&lt;/mxCell&gt;&lt;mxCell
-    id="3" vertex="1" parent="1" value="Interval 2"&gt;&lt;mxGeometry x="200" y="80" width="380"
-    height="30" as="geometry"/&gt;&lt;/mxCell&gt;&lt;mxCell id="4" vertex="1" parent="1"
-    value="Interval 3"&gt;&lt;mxGeometry x="40" y="140" width="260" height="30" as="geometry"/&gt;&lt;/mxCell&gt;&lt;mxCell
-    id="5" vertex="1" parent="1" value="Interval 4"&gt;&lt;mxGeometry x="120" y="200" width="240"
-    height="30" as="geometry"/&gt;&lt;/mxCell&gt;&lt;mxCell id="6" vertex="1" parent="1"
-    value="Interval 5"&gt;&lt;mxGeometry x="420" y="260" width="80" height="30" as="geometry"/&gt;&lt;/mxCell&gt;&lt;mxCell
-    id="7" edge="1" source="2" target="3" parent="1" value="Transfer1"&gt;&lt;mxGeometry
-    as="geometry"&gt;&lt;Array as="points"&gt;&lt;Object x="420" y="60"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell
-    id="8" edge="1" source="2" target="6" parent="1" value=""&gt;&lt;mxGeometry as="geometry"
-    relative="1" y="-30"&gt;&lt;Array as="points"&gt;&lt;Object x="600" y="60"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell
-    id="9" edge="1" source="3" target="4" parent="1" value="Transfer3"&gt;&lt;mxGeometry
-    as="geometry"&gt;&lt;Array as="points"&gt;&lt;Object x="260" y="120"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell
-    id="10" edge="1" source="4" target="5" parent="1" value="Transfer4"&gt;&lt;mxGeometry
-    as="geometry"&gt;&lt;Array as="points"&gt;&lt;Object x="200" y="180"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell
-    id="11" edge="1" source="4" target="6" parent="1" value="Transfer5"&gt;&lt;mxGeometry
-    as="geometry" relative="1" y="-10"&gt;&lt;Array as="points"&gt;&lt;Object x="460" y="155"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;
-</div>
+<div class="mxgraph" style="position:relative;overflow:auto;">
+
+    %3CmxGraphModel%20dx%3D%22992%22%20dy%3D%22664%22%20grid%3D%221%22%20gridSize%3D%2210%22%20guides%3D%221%22%20tooltips%3D%221%22%20connect%3D%221%22%20arrows%3D%221%22%20fold%3D%221%22%20page%3D%221%22%20pageScale%3D%221%22%20pageWidth%3D%22850%22%20pageHeight%3D%221100%22%20background%3D%22%23ffffff%22%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22thundersmn%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22240%22%20y%3D%22190%22%20width%3D%2240%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E
+
+
+    <div>
 This graph is embedded in the page.
 <div class="mxgraph"
      style="position:relative;background:#eeeeee;border:1px solid gray;overflow:auto;width:400px;height:200px;">

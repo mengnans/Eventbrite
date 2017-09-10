@@ -7,6 +7,8 @@ import org.apache.struts2.interceptor.ServletResponseAware;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.util.Enumeration;
 
 
@@ -17,7 +19,7 @@ public class SaveAction extends ActionSupport implements ServletResponseAware, S
    protected HttpServletResponse servletResponse;
    protected HttpServletRequest servletRequest;
 
-   public String execute() {
+   public String execute() throws UnsupportedEncodingException {
 
       Enumeration<String> names = servletRequest.getParameterNames();
       while(names.hasMoreElements()){
@@ -26,7 +28,10 @@ public class SaveAction extends ActionSupport implements ServletResponseAware, S
       String xml = servletRequest.getParameter("xml");
       String format = servletRequest.getParameter("format");
       String filename = servletRequest.getParameter("filename");
-      System.out.println(xml);
+      URLDecoder decoder = new URLDecoder();
+
+      String decodeXML = decoder.decode(xml, "ASCII");
+      System.out.println("decode" + decodeXML);
       System.out.println(format);
       System.out.println(filename);
       return "success";

@@ -66,19 +66,20 @@
 
         EditorUi.prototype.init = function () {
             editorUiInit.apply(this, arguments);
-            this.actions.get('export').setEnabled(false);
+            var enabled = req.getStatus() != 404;
+            this.actions.get('export').setEnabled(enabled);
 
-            // Updates action states which require a backend
-            if (!Editor.useLocalStorage) {
-                mxUtils.post(OPEN_URL, '', mxUtils.bind(this, function (req) {
-                    var enabled = req.getStatus() != 404;
-                    // this.actions.get('open').setEnabled(enabled || Graph.fileSupport);
-                    this.actions.get('import').setEnabled(enabled || Graph.fileSupport);
-                    // this.actions.get('save').setEnabled();
-                    // this.actions.get('saveAs').setEnabled();
-                    this.actions.get('export').setEnabled();
-                }));
-            }
+//            // Updates action states which require a backend
+//            if (!Editor.useLocalStorage) {
+//                mxUtils.post(OPEN_URL, '', mxUtils.bind(this, function (req) {
+//                    var enabled = req.getStatus() != 404;
+//                    // this.actions.get('open').setEnabled(enabled || Graph.fileSupport);
+//                    this.actions.get('import').setEnabled(enabled || Graph.fileSupport);
+//                    // this.actions.get('save').setEnabled();
+//                    // this.actions.get('saveAs').setEnabled();
+//                    this.actions.get('export').setEnabled();
+//                }));
+//            }
         };
 
         // Adds required resources (disables loading of fallback properties, this can only
