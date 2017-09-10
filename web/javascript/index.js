@@ -7,25 +7,27 @@ function onloadFunction() {
         } else {
             parameters = parameters.replace('#', '');
             var access_token = parameters.split('&')[1].split('=')[1];
-            setCookie("access_token", access_token,1);
+            setCookie("access_token", access_token, 1);
         }
     }
-    if (getCookie("eventId") == ""){
+    if (getCookie("eventId") == "") {
+        int
+        i = 0;
         $("#mailbox_center").addClass("disabled");
         $("#event_package").addClass("disabled");
         $("#template_editor").addClass("disabled");
-    }else{
+    } else {
 
-            $("#mailbox_center").removeClass("disabled");
-            $("#event_package").removeClass("disabled");
-            $("#template_editor").removeClass("disabled");
+        $("#mailbox_center").removeClass("disabled");
+        $("#event_package").removeClass("disabled");
+        $("#template_editor").removeClass("disabled");
     }
 }
 
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
@@ -45,11 +47,11 @@ function getCookie(cname) {
     return "";
 }
 
-function logout(){
+function logout() {
     delete_cookie("access_token");
     location.replace("login.html");
 }
 
-function delete_cookie( cname ) {
+function delete_cookie(cname) {
     document.cookie = cname + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 }
