@@ -47,7 +47,7 @@ public class GraphEditor {
       handlers.setHandlers(new Handler[]{fileHandler, context});
       server.setHandler(handlers);
 
-      System.out.println("Go to http://localhost:" + PORT + "/javascript/examples/grapheditor/www/design.jsp");
+      System.out.println("Go to http://localhost:" + PORT + "/javascript/examples/grapheditor/www/template.html");
 
       server.start();
       server.join();

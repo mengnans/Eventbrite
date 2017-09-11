@@ -31,7 +31,9 @@ public class SaveAction extends ActionSupport implements ServletResponseAware, S
       URLDecoder decoder = new URLDecoder();
 
       String decodeXML = decoder.decode(xml, "ASCII");
-      System.out.println("decode" + decodeXML);
+       System.out.println("xml: " + xml);
+
+       System.out.println("decode:" + decodeXML);
       System.out.println(format);
       System.out.println(filename);
       return "success";
