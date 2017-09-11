@@ -15,5 +15,10 @@
             <result name="error">/error.html</result>
 
         </action>
+        <action name="export" class="com.eventbrite.action.ExportAction" method="execute">
+            <result name ="success">/index.html</result>
+            <result name="error">/error.html</result>
+
+        </action>
     </package>
 </struts>

@@ -1,15 +1,13 @@
 package com.eventbrite.domain;
 public class Certificate {
     private int id;
-    private String name;
-    private String email;
-    private String certificateAddress;
+    private String eventId;
+    private String xml;
 
-    public Certificate(int id, String name, String email, String certificateAddress) {
+    public Certificate(int id, String eventId, String xml) {
         this.id = id;
-        this.name = name;
-        this.email = email;
-        this.certificateAddress = certificateAddress;
+        this.eventId = eventId;
+        this.xml = xml;
     }
 
     public int getId() {
@@ -20,37 +18,28 @@ public class Certificate {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getEventId() {
+        return eventId;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setEventId(String eventId) {
+        this.eventId = eventId;
     }
 
-    public String getEmail() {
-        return email;
+    public String getXml() {
+        return xml;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getCertificateAddress() {
-        return certificateAddress;
-    }
-
-    public void setCertificateAddress(String certificateAddress) {
-        this.certificateAddress = certificateAddress;
+    public void setXml(String xml) {
+        this.xml = xml;
     }
 
     @Override
     public String toString() {
         return "Certificate{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", certificateAddress='" + certificateAddress + '\'' +
+                ", eventId='" + eventId + '\'' +
+                ", xml='" + xml + '\'' +
                 '}';
     }
 }

@@ -1,6 +1,8 @@
 package com.eventbrite.test;
 
 import com.eventbrite.domain.Certificate;
+import com.eventbrite.factory.SqlFactory;
+import com.eventbrite.mapper.CertificateMapper;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
@@ -12,13 +14,7 @@ public class TestMybatis {
 
     @Test
     public void test(){
-        String resource = "mybatis.xml";
-        InputStream is = TestMybatis.class.getClassLoader().getResourceAsStream(resource);
-        SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(is);
-        SqlSession session = sessionFactory.openSession();
-        String statement = "com.eventbrite.mapping.certificateMapper.getUser";//映射sql的标识字符串
-        //执行查询返回一个唯一user对象的sql
-        Certificate certificate = session.selectOne(statement, 1);
-        System.out.println(certificate);
+        CertificateMapper mapper = new CertificateMapper();
+        System.out.println(mapper.update(new Certificate(1,"4","hihihi")));
     }
 }
