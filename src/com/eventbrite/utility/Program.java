@@ -17,19 +17,20 @@ import java.io.FileOutputStream;
 public class Program {
    
    public static void main(String[] args) {
-      try {
+//      try {
 //         Transcoder transcoder = new PDFTranscoder();
 //         TranscoderInput transcoderInput = new TranscoderInput(new FileInputStream(new File("D:\\svg.svg")));
 //         TranscoderOutput transcoderOutput = new TranscoderOutput(new FileOutputStream(new File("D:\\example.pdf")));
 //         transcoder.transcode(transcoderInput, transcoderOutput);
-         new SVGExport().setInput(new FileInputStream("D:\\if_view-01_186381.svg"))
-               .setOutput(new FileOutputStream("D:\\example.pdf"))
-               .setTranscoder(Format.PDF)
-               .transcode();
-      } catch (FileNotFoundException e) {
-         e.printStackTrace();
+         PdfGenerateHelper.CreatePdfFile("D:\\1.svg","D:\\example.pdf");
+//         new SVGExport().setInput(new FileInputStream("D:\\1.svg"))
+//               .setOutput(new FileOutputStream("D:\\abc\\example.pdf"))
+//               .setTranscoder(Format.PDF)
+//               .transcode();
+//      } catch (FileNotFoundException e) {
+//         e.printStackTrace();
 //      } catch (TranscoderException e) {
 //         e.printStackTrace();
-      }
+//      }
    }
 }
