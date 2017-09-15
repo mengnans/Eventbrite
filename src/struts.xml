@@ -20,5 +20,12 @@
             <result name="error">/error.html</result>
 
         </action>
+        <action name="generate" class="com.eventbrite.action.GeneratePDFAction" method="execute">
+            <result type="stream">
+                <param name="inputName">inputStream</param>
+            </result>
+        </action>
     </package>
+
+
 </struts>

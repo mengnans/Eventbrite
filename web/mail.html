@@ -44,7 +44,6 @@
             }
             return "";
         }
-
         function getAllAttendees() {
             var eventId = getCookie("eventId");
             var access_token = getCookie("access_token");
@@ -52,7 +51,6 @@
             var xhttp = new XMLHttpRequest();
             var attendeesList = new Array();
             xhttp.onreadystatechange = function () {
-
                 if (this.readyState == 4 && this.status == 200) {
                     var responseJSON = JSON.parse(this.responseText);
                     var num = responseJSON.pagination.object_count;
@@ -61,22 +59,18 @@
                         var email = responseJSON.attendees[i].profile.email;
                         attendeesList[i] = "" + name + "," + email;
                     }
-
-
                 }
             };
             xhttp.open("GET", url, true);
             xhttp.send();
             return attendeesList;
         }
-
         function getUserEmail() {
             var access_token = getCookie("access_token");
             var url = "https://www.eventbriteapi.com/v3/users/me/?token=" + access_token;
             var xhttp = new XMLHttpRequest();
             var userEmail = "";
             xhttp.onreadystatechange = function () {
-
                 if (this.readyState == 4 && this.status == 200) {
                     var responseJSON = JSON.parse(this.responseText);
                     userEmail = responseJSON.emails[0].email;
@@ -86,7 +80,6 @@
             xhttp.open("GET", url, true);
             xhttp.send();
         }
-
         function tdClick(i) {
             var id = "#td_" + i;
             var item = $(id);
@@ -99,12 +92,10 @@
                 item.addClass("alert-danger");
             }
         }
-
         $(document).ready(function () {
             var editor = new SquireUI({replace: 'textarea#foo', height: 300});
             var attendeesList = getAllAttendees();
             getUserEmail();
-
             $("#all_attendees").click(function () {
                 $("#selected_attendees").removeClass("active");
                 $("#all_attendees").addClass("active");
@@ -131,13 +122,10 @@
                 if ((i + 1) % 3 != 0) {
                     html += "</tr>";
                 }
-
                 html += "</tbody></table>";
                 document.getElementById("attendee_list").innerHTML = html;
-
             });
             $("#send").click(function () {
-
                 // for choosing the selected attendees
                 if ($("#selected_attendees").hasClass("active")) {
                     attendeesList = new Array();
@@ -161,10 +149,30 @@
                     }
                 }
 
+
+
+
+                // get event Id;
+                var eventId = getCookie("eventId");
+
                 // sending the emails
                 for (var i = 0; i < attendeesList.length; i++) {
                     var name = attendeesList[i].split(',')[0];
                     var email = attendeesList[i].split(',')[1];
+
+                    // generate pdf files
+
+                    var jsonData = {"eventId" : eventId, "fileName" : attendeesList[i]};
+                    alert("start");
+                    $.ajax({
+                        url: './mail.html/generate',
+                        data: jsonData,
+                        type: 'get',
+                        dataType: 'html',
+                        cache: false,
+                        async: false
+                    });
+
                     // get the subject
                     var subject = document.getElementById("subject").value;
                     // get the reply_to
@@ -180,12 +188,10 @@
                         message_html: content,
                         subject: subject
                     };
-                    emailjs.send("gmail", "template_Ph1sznvQ", template_parameters);
+//                    emailjs.send("gmail", "template_Ph1sznvQ", template_parameters);
                 }
-                alert("success");
-                location.replace("index.html");
-
-
+//                alert("success");
+//                location.replace("index.html");
             });
         });
     </script>
@@ -276,4 +282,3 @@
 
 </div>
 </body>
-</html>
