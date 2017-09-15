@@ -15,6 +15,7 @@ public class PdfGenerateHelper {
     */
    public static boolean CreatePdfFile(String argSgvFileAddress, String argFileAddress) {
       try {
+         if (argFileAddress.endsWith(".pdf") == false) argFileAddress = argFileAddress + ".pdf";
          new SVGExport().setInput(new FileInputStream(argSgvFileAddress))
                .setOutput(new FileOutputStream(argFileAddress))
                .setTranscoder(Format.PDF)
@@ -35,6 +36,7 @@ public class PdfGenerateHelper {
     */
    public static boolean CreatePdfFileByContent(String argSgvContent, String argFileAddress) {
       try {
+         if (argFileAddress.endsWith(".pdf") == false) argFileAddress = argFileAddress + ".pdf";
          new SVGExport().setInputAsString(argSgvContent)
                .setOutput(new FileOutputStream(argFileAddress))
                .setTranscoder(Format.PDF)
