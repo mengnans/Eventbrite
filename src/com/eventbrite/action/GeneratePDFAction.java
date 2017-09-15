@@ -17,6 +17,8 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import static org.apache.struts2.ServletActionContext.getServletContext;
+
 
 public class GeneratePDFAction extends ActionSupport implements ServletResponseAware, ServletRequestAware {
     private static final long serialVersionUID = 1L;
@@ -72,9 +74,9 @@ public class GeneratePDFAction extends ActionSupport implements ServletResponseA
         String dateString = dateFormat.format(date);
         xml = xml.replaceAll("username",userName);
         xml = xml.replaceAll("date",dateString);
+        String path = getServletContext().getRealPath("/WEB-INF");
 
-
-        String path = "E://pdf";
+        path += "//pdf";
         File file = new File(path);
 
         if(!file.exists()){

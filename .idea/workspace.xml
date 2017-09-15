@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaa89d63-7590-47bb-94e0-739f9d5ba0ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/eventbrite/action/GeneratePDFAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Eventbrite_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Eventbrite_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/eventbrite/utility/PdfGenerateHelper.java" afterPath="$PROJECT_DIR$/src/com/eventbrite/utility/PdfGenerateHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/mail.html" afterPath="$PROJECT_DIR$/web/mail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/eventbrite/action/GeneratePDFAction.java" afterPath="$PROJECT_DIR$/src/com/eventbrite/action/GeneratePDFAction.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneratePDFAction.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GeneratePDFAction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/eventbrite/action/GeneratePDFAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+            <state relative-caret-position="297">
+              <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PdfGenerateHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PdfGenerateHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/eventbrite/utility/PdfGenerateHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+            <state relative-caret-position="453">
+              <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -165,8 +161,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/struts.xml" />
         <option value="$PROJECT_DIR$/web/mail.html" />
-        <option value="$PROJECT_DIR$/src/com/eventbrite/action/GeneratePDFAction.java" />
         <option value="$PROJECT_DIR$/src/com/eventbrite/utility/PdfGenerateHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/eventbrite/action/GeneratePDFAction.java" />
       </list>
     </option>
   </component>
@@ -249,6 +245,12 @@
               <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eventbrite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eventbrite" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -643,7 +645,7 @@
       <workItem from="1505130822702" duration="765000" />
       <workItem from="1505203717643" duration="77000" />
       <workItem from="1505462883630" duration="2595000" />
-      <workItem from="1505470198030" duration="2105000" />
+      <workItem from="1505470198030" duration="2481000" />
     </task>
     <task id="LOCAL-00001" summary="update struct 2.3 @Mengnan Shi">
       <created>1503911243422</created>
@@ -694,7 +696,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505452626846</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="generate pdf backend">
+      <created>1505472336027</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1505472336027</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -730,7 +739,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45240000" />
+    <option name="totallyTimeSpent" value="45616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -783,7 +792,8 @@
     <MESSAGE value="update persistence layer(mybatis)" />
     <MESSAGE value="Convert SVG to PDF" />
     <MESSAGE value="Debug SVG to PDF data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debug SVG to PDF data" />
+    <MESSAGE value="generate pdf backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="generate pdf backend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1087,18 +1097,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/eventbrite/action/GeneratePDFAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/eventbrite/utility/PdfGenerateHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+        <state relative-caret-position="453">
+          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/eventbrite/utility/PdfGenerateHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/eventbrite/action/GeneratePDFAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        <state relative-caret-position="297">
+          <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
           <folding />
         </state>
       </provider>
