@@ -6,13 +6,12 @@ import com.eventbrite.mapper.CertificateMapper;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import org.junit.jupiter.api.Test;
 
 import java.io.InputStream;
 
 public class TestMybatis {
 
-    @Test
+//    @Test
     public void test(){
         CertificateMapper mapper = new CertificateMapper();
         System.out.println(mapper.update(new Certificate(1,"4","hihihi")));
