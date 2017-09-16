@@ -9,7 +9,6 @@
     <list default="true" id="aaa89d63-7590-47bb-94e0-739f9d5ba0ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/eventbrite/utility/PdfGenerateHelper.java" afterPath="$PROJECT_DIR$/src/com/eventbrite/utility/PdfGenerateHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/eventbrite/utility/Program.java" afterPath="$PROJECT_DIR$/src/com/eventbrite/utility/Program.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,8 +34,8 @@
       <file leaf-file-name="PdfGenerateHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/eventbrite/utility/PdfGenerateHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+            <state relative-caret-position="374">
+              <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -658,7 +657,7 @@
       <workItem from="1505462883630" duration="2595000" />
       <workItem from="1505470198030" duration="2481000" />
       <workItem from="1505473318514" duration="550000" />
-      <workItem from="1505552384911" duration="982000" />
+      <workItem from="1505552384911" duration="1075000" />
     </task>
     <task id="LOCAL-00001" summary="update struct 2.3 @Mengnan Shi">
       <created>1503911243422</created>
@@ -716,7 +715,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505472336027</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="generate pdf refinement">
+      <created>1505553379939</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1505553379940</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -752,7 +758,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47383000" />
+    <option name="totallyTimeSpent" value="47476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="-8" width="1856" height="1096" extended-state="6" />
@@ -806,7 +812,8 @@
     <MESSAGE value="Convert SVG to PDF" />
     <MESSAGE value="Debug SVG to PDF data" />
     <MESSAGE value="generate pdf backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="generate pdf backend" />
+    <MESSAGE value="generate pdf refinement" />
+    <option name="LAST_COMMIT_MESSAGE" value="generate pdf refinement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1119,8 +1126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/eventbrite/utility/PdfGenerateHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        <state relative-caret-position="374">
+          <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
