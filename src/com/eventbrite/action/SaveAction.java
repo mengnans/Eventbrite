@@ -44,8 +44,7 @@ public class SaveAction extends ActionSupport implements ServletResponseAware, S
 
         String decodeXML = decoder.decode(xml, "ASCII");
 
-
-
+        System.out.println("decode:"+decodeXML);
         Cookie[] cookies = servletRequest.getCookies();
         String eventId = null;
         for (int i = 0; i < cookies.length; i++) {

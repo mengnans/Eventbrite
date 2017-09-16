@@ -22,17 +22,10 @@ import java.io.FileOutputStream;
 // This example requires iText from http://www.lowagie.com/iText/
 public class PdfExport
 {
-	public PdfExport() throws Exception
+	public static void generagePDF(String xml, String path) throws Exception
 	{
-
-
-        String xml = "\n" +
-                "<mxGraphModel dx=\"1604\" dy=\"958\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"827\" pageHeight=\"1169\" background=\"#ffffff\"><root><mxCell id=\"2\" value=\"Hello,\" vertex=\"1\"><mxGeometry x=\"620\" y=\"620\" width=\"80\" height=\"30\" as=\"geometry\"/></mxCell><mxCell id=\"3\" value=\"World!\" vertex=\"1\"><mxGeometry x=\"720\" y=\"720\" width=\"80\" height=\"30\" as=\"geometry\"/></mxCell><mxCell id=\"4\" value=\"\" edge=\"1\" source=\"2\" target=\"3\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell></root></mxGraphModel>";
-//        xml = "<mxGraphModel grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"827\" pageHeight=\"1169\" background=\"#ffffff\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/></root></mxGraphModel>";
-//        xml = "<mxGraphModel dx=\"1363\" dy=\"814\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"827\" pageHeight=\"1169\" background=\"#ffffff\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"thundersmn&lt;div&gt;&lt;br&gt;&lt;/div&gt;\" style=\"text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"290\" y=\"210\" width=\"40\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>";
-//        xml = "<mxGraphModel dx=\"1604\" dy=\"958\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"827\" pageHeight=\"1169\" background=\"#ffffff\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"3\" value=\"thundersmn\" style=\"text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"260\" y=\"150\" width=\"360\" height=\"20\" as=\"geometry\"/></mxCell><mxCell id=\"4\" value=\"\" style=\"shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"260\" y=\"340\" width=\"80\" height=\"80\" as=\"geometry\"/></mxCell><mxCell id=\"5\" value=\"ffffffffffffffffffffffffffffffffffffffffffffff\" style=\"text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"530\" y=\"320\" width=\"40\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>";
-        xml = "<mxGraphModel dx=\"1604\" dy=\"958\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"827\" pageHeight=\"1169\" background=\"#ffffff\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"3\" value=\"thundersmn\" style=\"text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"260\" y=\"150\" width=\"360\" height=\"20\" as=\"geometry\"/></mxCell><mxCell id=\"4\" value=\"\" style=\"shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#66FF66;fillColor=#B266FF;strokeWidth=8;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"260\" y=\"340\" width=\"80\" height=\"80\" as=\"geometry\"/></mxCell><mxCell id=\"5\" value=\"ffffffffffffffffffffffffffffffffffffffffffffff\" style=\"text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"530\" y=\"320\" width=\"40\" height=\"20\" as=\"geometry\"/></mxCell></root></mxGraphModel>";
-        xml ="<mxGraphModel dx=\"433\" dy=\"843\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"827\" pageHeight=\"1169\" background=\"#ffffff\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"4\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.75;exitY=1;jettySize=auto;orthogonalLoop=1;\" edge=\"1\" parent=\"1\" source=\"2\" target=\"3\"><mxGeometry relative=\"1\" as=\"geometry\"/></mxCell><mxCell id=\"5\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;jettySize=auto;orthogonalLoop=1;\" edge=\"1\" parent=\"1\" source=\"2\"><mxGeometry relative=\"1\" as=\"geometry\"><mxPoint x=\"310\" y=\"190\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"2\" value=\"thundersmn\" style=\"text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"374\" y=\"200\" width=\"40\" height=\"20\" as=\"geometry\"/></mxCell><mxCell id=\"3\" value=\"\" style=\"rounded=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"90\" y=\"405\" width=\"550\" height=\"630\" as=\"geometry\"/></mxCell><mxCell id=\"6\" value=\"\" style=\"ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"245\" y=\"110\" width=\"120\" height=\"80\" as=\"geometry\"/></mxCell></root></mxGraphModel>";
+        xml = "<mxGraphModel dx=\"1364\" dy=\"863\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"827\" pageHeight=\"1169\" background=\"#ffffff\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"hello\" style=\"text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"270\" y=\"180\" width=\"40\" height=\"20\" as=\"geometry\"/></mxCell><mxCell id=\"3\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"520\" y=\"260\" width=\"80\" height=\"80\" as=\"geometry\"/></mxCell><mxCell id=\"4\" value=\"\" style=\"endArrow=classic;startArrow=classic;html=1;exitX=0.75;exitY=1;\" edge=\"1\" parent=\"1\" source=\"2\" target=\"3\"><mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"><mxPoint x=\"340\" y=\"210\" as=\"sourcePoint\"/><mxPoint x=\"390\" y=\"160\" as=\"targetPoint\"/></mxGeometry></mxCell></root></mxGraphModel>";
+        xml ="<mxGraphModel dx=\"1364\" dy=\"863\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"827\" pageHeight=\"1169\" background=\"#ffffff\"><root><mxCell id=\"0\"/><mxCell id=\"1\" parent=\"0\"/><mxCell id=\"2\" value=\"hello\" style=\"text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"270\" y=\"180\" width=\"40\" height=\"20\" as=\"geometry\"/></mxCell><mxCell id=\"3\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"520\" y=\"260\" width=\"80\" height=\"80\" as=\"geometry\"/></mxCell><mxCell id=\"4\" value=\"\" style=\"endArrow=classic;startArrow=classic;html=1;exitX=0.75;exitY=1;\" edge=\"1\" parent=\"1\" source=\"2\" target=\"3\"><mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"><mxPoint x=\"340\" y=\"210\" as=\"sourcePoint\"/><mxPoint x=\"390\" y=\"160\" as=\"targetPoint\"/></mxGeometry></mxCell><mxCell id=\"5\" value=\"\" style=\"shape=document;whiteSpace=wrap;html=1;boundedLbl=1;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"240\" y=\"290\" width=\"120\" height=\"80\" as=\"geometry\"/></mxCell><mxCell id=\"6\" value=\"\" style=\"shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"430\" y=\"320\" width=\"60\" height=\"80\" as=\"geometry\"/></mxCell><mxCell id=\"7\" value=\"\" style=\"whiteSpace=wrap;html=1;aspect=fixed;\" vertex=\"1\" parent=\"1\"><mxGeometry x=\"90\" y=\"210\" width=\"80\" height=\"80\" as=\"geometry\"/></mxCell></root></mxGraphModel>";
         org.w3c.dom.Document doc = mxUtils.parseXml(xml);
         mxCodec codec = new mxCodec(doc);
         Node elt = doc.getDocumentElement().getFirstChild().getFirstChild();
@@ -49,7 +42,8 @@ public class PdfExport
         int i = 0;
         while (elt != null)
         {
-            cells[i] = (mxCell) codec.decode(elt);
+            mxCell cell = (mxCell) codec.decode(elt);
+            cells[i] = cell;
             elt = elt.getNextSibling();
             i++;
         }
@@ -90,7 +84,7 @@ public class PdfExport
 				.getWidth()), (float) (bounds.getHeight())));
 // 		Document document = new Document(new Rectangle((float) (pageWidth), (float) (pageHeight)));
 		PdfWriter writer = PdfWriter.getInstance(document,
-				new FileOutputStream("E:/1.pdf"));
+				new FileOutputStream("E:/11221.pdf"));
 		document.open();
 		final PdfContentByte cb = writer.getDirectContent();
 
@@ -112,7 +106,7 @@ public class PdfExport
 	{
 		try
 		{
-			new PdfExport();
+			generagePDF("","");
 		}
 		catch (Exception e)
 		{

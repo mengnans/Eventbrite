@@ -27,7 +27,6 @@
     <script src="build/squire-raw.js" type="text/javascript"></script>
     <script src="build/Squire-UI.js" type="text/javascript"></script>
     <script type="text/javascript" src="../../../src/js/mxClient.js"></script>
-
     <script>
         function getCookie(cname) {
             var name = cname + "=";
@@ -44,6 +43,7 @@
             }
             return "";
         }
+
         function getAllAttendees() {
             var eventId = getCookie("eventId");
             var access_token = getCookie("access_token");
@@ -65,6 +65,7 @@
             xhttp.send();
             return attendeesList;
         }
+
         function getUserEmail() {
             var access_token = getCookie("access_token");
             var url = "https://www.eventbriteapi.com/v3/users/me/?token=" + access_token;
@@ -80,6 +81,7 @@
             xhttp.open("GET", url, true);
             xhttp.send();
         }
+
         function tdClick(i) {
             var id = "#td_" + i;
             var item = $(id);
@@ -92,6 +94,7 @@
                 item.addClass("alert-danger");
             }
         }
+
         $(document).ready(function () {
             var editor = new SquireUI({replace: 'textarea#foo', height: 300});
             var attendeesList = getAllAttendees();
@@ -125,7 +128,18 @@
                 html += "</tbody></table>";
                 document.getElementById("attendee_list").innerHTML = html;
             });
-            $("#send").click(function () {
+
+
+            var myform = $("form#myform");
+            myform.submit(function (event) {
+                event.preventDefault();
+
+                // Change to your service ID, or keep using the default service
+                var service_id = "gmail";
+                var template_id = "template_Ph1sznvQ";
+
+                myform.find("#send").val("Sending...");
+
                 // for choosing the selected attendees
                 if ($("#selected_attendees").hasClass("active")) {
                     attendeesList = new Array();
@@ -150,20 +164,17 @@
                 }
 
 
-
-
                 // get event Id;
                 var eventId = getCookie("eventId");
 
                 // sending the emails
                 for (var i = 0; i < attendeesList.length; i++) {
+                    alert(1);
                     var name = attendeesList[i].split(',')[0];
                     var email = attendeesList[i].split(',')[1];
 
                     // generate pdf files
-
-                    var jsonData = {"eventId" : eventId, "fileName" : attendeesList[i]};
-                    alert("start");
+                    var jsonData = {"eventId": eventId, "fileName": attendeesList[i]};
                     $.ajax({
                         url: './mail.html/generate',
                         data: jsonData,
@@ -173,27 +184,22 @@
                         async: false
                     });
 
-                    // get the subject
-                    var subject = document.getElementById("subject").value;
-                    // get the reply_to
-                    var replyTo = document.getElementById("reply_to").value;
-                    // get the email content
-                    var content = editor.getHTML();
-                    // parameters: service_id, template_id, template_parameters
-                    var template_parameters = {
-                        to_email: email,
-                        reply_to: replyTo,
-                        to_name: name,
-                        from_name: "ICU QUOLL",
-                        message_html: content,
-                        subject: subject
-                    };
-//                    emailjs.send("gmail", "template_Ph1sznvQ", template_parameters);
+                    myform.find("#to_email").val(email);
+                    myform.find("#to_name").val(name);
+                    myform.find("#message_html").val(editor.getHTML());
+                    emailjs.sendForm(service_id, template_id, "myform");
                 }
-//                alert("success");
-//                location.replace("index.html");
+
+
+                myform.find("#send").val("Send");
+                alert("success");
+                location.replace("index.html");
+
+
             });
         });
+
+
     </script>
 
     <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
@@ -245,37 +251,59 @@
 
     <div class="btn-group btn-group-justified">
         <a href="#" class="btn btn-primary">Normal</a>
-        <a href="#" class="btn btn-primary">Auto send certificate</a>
-        <a href="#" class="btn btn-primary">Re-send certificate</a>
+        <a href="#" class="btn btn-primary">Send certificates</a>
     </div>
-    <br/><br/>
-    <div class="form-group">
-        <label for="subject">Subject:</label>
-        <input type="text" class="form-control" id="subject">
-    </div>
-    <div class="form-group">
-        <label for="reply_to">Reply to:</label>
-        <input type="text" class="form-control" id="reply_to">
-    </div>
-    <div class="list-group">
-        <label>Send to:</label>
-        <a id="all_attendees" href="#" class="list-group-item active">All attendees</a>
-        <a id="selected_attendees" href="#" class="list-group-item">Selected attendees</a>
-    </div>
-    <div id="attendee_list"></div>
-    <tbody>
-    <div class="row">
-        <div class="col-centered">
-            <textarea id="foo"></textarea>
-        </div>
-    </div>
+    <form id="myform" enctype="multipart/form-data" method="post">
+        <input id="to_email" type="hidden" name="to_email" value=""/>
 
-    <br/>
-    <button id="send" type="button" class="btn btn-primary btn-block">Send</button>
+
+        <br/><br/>
+        <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" class="form-control" id="subject" name="subject"/>
+        </div>
+        <div class="form-group">
+            <label for="reply_to">Reply to:</label>
+            <input type="text" name="reply_to" class="form-control" id="reply_to"/>
+
+
+        </div>
+        <div class="list-group">
+            <lable for="my_file">Attachment:</lable>
+            <input name="my_file" class="form-control" type="file" multiple/>
+
+        </div>
+        <input type="hidden" name="to_name" value="" id="to_name"/>
+        <input type="hidden" name="from_name" value="ICU QUOLL"/>
+        <input type="hidden" name="message_html" value="" id="message_html"/>
+        <div class="list-group">
+            <label>Send to:</label>
+            <a id="all_attendees" href="#" class="list-group-item active">All attendees</a>
+            <a id="selected_attendees" href="#" class="list-group-item">Selected attendees</a>
+        </div>
+
+        <div id="attendee_list"></div>
+        <tbody>
+        <div class="row">
+            <div class="col-centered">
+                <textarea id="foo"></textarea>
+            </div>
+        </div>
+
+        <br/>
+        <!--<input type="submit" value="send" id="send" class="form-control"/>-->
+        <button id="send" type="submit" class="btn btn-primary btn-block">Send</button>
+    </form>
+
     <script>
         cancel = function () {
             location.replace("index.jsp");
         }
+    </script>
+
+
+    <script>
+
     </script>
     <button type="button" class="btn btn-primary btn-block" onclick="cancel()">Cancel</button>
 
