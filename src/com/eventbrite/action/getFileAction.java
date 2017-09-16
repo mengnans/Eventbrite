@@ -21,25 +21,15 @@ import static com.eventbrite.utility.FileUtil.encodeBase64File;
 import static org.apache.struts2.ServletActionContext.getServletContext;
 
 
-public class GeneratePDFAction extends ActionSupport implements ServletResponseAware, ServletRequestAware {
+public class getFileAction extends ActionSupport implements ServletResponseAware, ServletRequestAware {
     private static final long serialVersionUID = 1L;
-    private static final int NO_ID = -1;
-    private static final String NO_XML = "";
 
     public InputStream getInputStream() {
         return inputStream;
     }
 
     private InputStream inputStream;
-    public String getResult() {
-        return result;
-    }
 
-    public void setResult(String result) {
-        this.result = result;
-    }
-
-    private String result;
 
     // For access to the raw servlet request / response, eg for cookies
     protected HttpServletResponse servletResponse;
@@ -60,40 +50,9 @@ public class GeneratePDFAction extends ActionSupport implements ServletResponseA
 
 
     public String execute() throws Exception {
-        String eventId = servletRequest.getParameter("eventId");
-        String fileName = servletRequest.getParameter("fileName");
-
-        CertificateMapper mapper = new CertificateMapper();
-        Certificate certificate = mapper.search(new Certificate(NO_ID,eventId,NO_XML));
-        String xml = certificate.getXml();
-
-        //get user name
-        String userName = fileName.split(",")[0];
-        // get date
-        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-        Date date = new Date();
-        String dateString = dateFormat.format(date);
-        xml = xml.replaceAll("username",userName);
-        xml = xml.replaceAll("date",dateString);
-        String path = getServletContext().getRealPath("/WEB-INF");
-
-        path += "//pdf";
-        File file = new File(path);
-
-        if(!file.exists()){
-            file.mkdir();
-        }
-        path += "//" + eventId;
-        file = new File(path);
-        if(!file.exists()){
-            file.mkdir();
-        }
-        path += "//" + fileName + ".pdf";
-        PdfGenerateHelper.CreatePdfFileByContent(xml,path);
-
+        String path = servletRequest.getParameter("path");
         String base64Code = encodeBase64File(path);
         inputStream = new StringBufferInputStream(base64Code);
-
         return "success";
     }
 
