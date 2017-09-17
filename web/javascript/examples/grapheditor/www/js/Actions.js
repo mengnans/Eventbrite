@@ -26,22 +26,19 @@ Actions.prototype.init = function () {
         window.open(ui.getUrl());
     });
     this.addAction('open...', function () {
-        window.openNew = true;
-        window.openKey = 'open';
-
-        ui.openFile();
-    });
-    this.addAction('import...', function () {
         window.openNew = false;
-        window.openKey = 'import';
+        window.openKey = 'open';
 
         // Closes dialog after open
         window.openFile = new OpenFile(mxUtils.bind(this, function () {
+            //alert("close opendialog");
             ui.hideDialog();
         }));
 
         window.openFile.setConsumer(mxUtils.bind(this, function (xml, filename) {
             try {
+                //alert(filename);
+                //alert(xml);
                 var doc = mxUtils.parseXml(xml);
                 var model = new mxGraphModel();
                 var codec = new mxCodec(doc);
@@ -57,6 +54,37 @@ Actions.prototype.init = function () {
 
         // Removes openFile if dialog is closed
         ui.showDialog(new OpenDialog(this).container, 320, 220, true, true, function () {
+            //alert("open opendialog");
+            window.openFile = null;
+        });
+    }).isEnabled = isGraphEnabled;
+    this.addAction('import...', function () {
+        window.openNew = false;
+        window.openKey = 'import';
+
+        // Closes dialog after import
+        window.openFile = new OpenFile(mxUtils.bind(this, function () {
+            ui.hideDialog();
+        }));
+
+        window.openFile.setConsumer(mxUtils.bind(this, function (imgurl) {
+            //alert("imgurl: "+imgurl);
+            var style = new Object();
+            style[mxConstants.STYLE_SHAPE] = mxConstants.SHAPE_IMAGE;
+            style[mxConstants.STYLE_PERIMETER] = mxPerimeter.RectanglePerimeter;
+            style[mxConstants.STYLE_IMAGE] = imgurl;
+            style[mxConstants.STYLE_FONTCOLOR] = '#FFFFFF';
+            editor.graph.getStylesheet().putCellStyle('image', style);
+
+            editor.graph.getModel().beginUpdate();
+            var parent = graph.getDefaultParent();
+            var v1 = graph.insertVertex(parent, null, '', 0, 0, 200, 200, 'image');
+            editor.graph.getModel().endUpdate();
+
+        }));
+
+        // Removes openFile if dialog is closed
+        ui.showDialog(new OpenImportDialog(this).container, 320, 220, true, true, function () {
             window.openFile = null;
         });
     }).isEnabled = isGraphEnabled;

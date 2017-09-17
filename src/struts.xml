@@ -30,7 +30,11 @@
                 <param name="inputName">inputStream</param>
             </result>
         </action>
+        <action name="open" class="com.eventbrite.action.OpenAction" method="execute">
+            <result name="success">javascript/examples/grapheditor/www/index.html</result>
+        </action>
+        <action name="import" class="com.eventbrite.action.ImportActioin" method="execute">
+            <result name="success">javascript/examples/grapheditor/www/index.html</result>
+        </action>
     </package>
-
-
 </struts>
