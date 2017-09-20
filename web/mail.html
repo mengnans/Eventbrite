@@ -187,6 +187,7 @@
                         // generate pdf files
                         var jsonData = {"eventId": eventId, "fileName": attendeesList[i]};
                         var pdfContent = "";
+                        myform.find("#content").val("");
                         $.ajax({
                             url: './mail.html/generate',
                             data: jsonData,
@@ -199,13 +200,12 @@
                                 myform.find("#content").val(pdfContent);
                             }
                         });
+
                     }
-                    alert(attendeesList[i]);
 
                     myform.find("#to_email").val(email);
                     myform.find("#to_name").val(name);
                     myform.find("#message_html").val(editor.getHTML());
-
                     emailjs.sendForm(service_id, template_id, "myform");
                 }
 
