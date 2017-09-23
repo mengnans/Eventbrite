@@ -11,12 +11,18 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Enumeration;
 
 
 public class SaveAction extends ActionSupport implements ServletResponseAware, ServletRequestAware {
     private static final long serialVersionUID = 1L;
     private static final int ID_IS_NOT_NEEDED = -1;
+
+    private static final String REGEX_FOR_DATE = "\"date\"";
+    private static final String DATE_PATTERN = "yyyy/MM/dd";
 
     // For access to the raw servlet request / response, eg for cookies
     protected HttpServletResponse servletResponse;
@@ -44,6 +50,13 @@ public class SaveAction extends ActionSupport implements ServletResponseAware, S
 
         String decodeXML = decoder.decode(xml, "ASCII");
 
+        // get date
+        DateFormat dateFormat = new SimpleDateFormat(DATE_PATTERN);
+        Date date = new Date();
+        String dateString = dateFormat.format(date);
+
+        decodeXML = decodeXML.replaceAll(REGEX_FOR_DATE,dateString);
+
         System.out.println("decode:"+decodeXML);
         Cookie[] cookies = servletRequest.getCookies();
         String eventId = null;
@@ -59,14 +72,16 @@ public class SaveAction extends ActionSupport implements ServletResponseAware, S
             return "false";
         }
         CertificateMapper mapper = new CertificateMapper();
+
+
+
+
         Certificate certificate = new Certificate(ID_IS_NOT_NEEDED, eventId, decodeXML);
-        int result = -1;
         if (null != mapper.search(certificate)) {
-            result = mapper.update(certificate);
+            mapper.update(certificate);
         } else {
-            result = mapper.save(certificate);
+            mapper.save(certificate);
         }
-        System.out.println(result);
         return "success";
     }
 

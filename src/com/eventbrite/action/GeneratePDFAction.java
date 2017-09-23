@@ -25,6 +25,7 @@ public class GeneratePDFAction extends ActionSupport implements ServletResponseA
     private static final long serialVersionUID = 1L;
     private static final int NO_ID = -1;
     private static final String NO_XML = "";
+    private static final String REGEX_FOR_USERNAME = "\"username\"";
 
     public InputStream getInputStream() {
         return inputStream;
@@ -69,12 +70,8 @@ public class GeneratePDFAction extends ActionSupport implements ServletResponseA
 
         //get user name
         String userName = fileName.split(",")[0];
-        // get date
-        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-        Date date = new Date();
-        String dateString = dateFormat.format(date);
-        xml = xml.replaceAll("username",userName);
-        xml = xml.replaceAll("date",dateString);
+
+        xml = xml.replaceAll(REGEX_FOR_USERNAME,userName);
         String path = getServletContext().getRealPath("/WEB-INF");
 
         path += "//pdf";

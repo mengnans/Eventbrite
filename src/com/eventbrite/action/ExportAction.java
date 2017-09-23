@@ -8,44 +8,50 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Enumeration;
 
 
 public class ExportAction extends ActionSupport implements ServletResponseAware, ServletRequestAware {
-   private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
+    private static final String REGEX_FOR_DATE = "\"date\"";
+    private static final String DATE_PATTERN = "yyyy/MM/dd";
+    // For access to the raw servlet request / response, eg for cookies
+    protected HttpServletResponse servletResponse;
+    protected HttpServletRequest servletRequest;
 
-   // For access to the raw servlet request / response, eg for cookies
-   protected HttpServletResponse servletResponse;
-   protected HttpServletRequest servletRequest;
+    public String execute() throws UnsupportedEncodingException {
 
-   public String execute() throws UnsupportedEncodingException {
+        Enumeration<String> names = servletRequest.getParameterNames();
+        while (names.hasMoreElements()) {
+            System.out.println(names.nextElement());
+        }
+        String xml = servletRequest.getParameter("xml");
+        String format = servletRequest.getParameter("format");
+        String filename = servletRequest.getParameter("filename");
+        URLDecoder decoder = new URLDecoder();
 
-      Enumeration<String> names = servletRequest.getParameterNames();
-      while(names.hasMoreElements()){
-         System.out.println(names.nextElement());
-      }
-      String xml = servletRequest.getParameter("xml");
-      String format = servletRequest.getParameter("format");
-      String filename = servletRequest.getParameter("filename");
-      URLDecoder decoder = new URLDecoder();
+        String decodeXML = decoder.decode(xml, "ASCII");
 
-      String decodeXML = decoder.decode(xml, "ASCII");
-       System.out.println("xml: " + xml);
+        // get date
+        DateFormat dateFormat = new SimpleDateFormat(DATE_PATTERN);
+        Date date = new Date();
+        String dateString = dateFormat.format(date);
 
-       System.out.println("decode:" + decodeXML);
-      System.out.println(format);
-      System.out.println(filename);
-      return "success";
-   }
+        decodeXML = decodeXML.replaceAll(REGEX_FOR_DATE,dateString);
+        return "success";
+    }
 
 
-   @Override
-   public void setServletResponse(HttpServletResponse servletResponse) {
-      this.servletResponse = servletResponse;
-   }
+    @Override
+    public void setServletResponse(HttpServletResponse servletResponse) {
+        this.servletResponse = servletResponse;
+    }
 
-   @Override
-   public void setServletRequest(HttpServletRequest servletRequest) {
-      this.servletRequest = servletRequest;
-   }
+    @Override
+    public void setServletRequest(HttpServletRequest servletRequest) {
+        this.servletRequest = servletRequest;
+    }
 }
