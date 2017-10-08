@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="asm">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-commons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-tree.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-fileupload.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/freemarker.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jboss-servlet-api_3.0_spec-1.0.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-6.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jetty-util-6.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mxgraph-all.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mxgraph-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mxgraph-swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mxPdf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mybatis-3.4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-6.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ognl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/servlet-api-2.5-6.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts2-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xwork-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

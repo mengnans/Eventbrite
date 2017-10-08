@@ -1,0 +1,328 @@
+<html>
+<head>
+    <title>Mail Center</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <link rel="icon" href="images/website.ico">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="css/justified-nav.css" rel="stylesheet">
+
+    <link href="css/select.css" rel="stylesheet">
+    <script src="javascript/mail.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+    <link href="build/Squire-UI.css" rel="stylesheet" type="text/css"/>
+
+    <link href="build/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <script src="build/jQuery/jQuery.js" type="text/javascript"></script>
+    <script src="build/squire-raw.js" type="text/javascript"></script>
+    <script src="build/Squire-UI.js" type="text/javascript"></script>
+    <script>
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        function getAllAttendees() {
+            var eventId = getCookie("eventId");
+            var access_token = getCookie("access_token");
+            var url = "https://www.eventbriteapi.com/v3/events/" + eventId + "/attendees/?token=" + access_token;
+            var xhttp = new XMLHttpRequest();
+            var attendeesList = new Array();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    var responseJSON = JSON.parse(this.responseText);
+                    var num = responseJSON.pagination.object_count;
+                    for (var i = 0; i < num && i < 50; i++) {
+                        var name = responseJSON.attendees[i].profile.name;
+                        var email = responseJSON.attendees[i].profile.email;
+                        attendeesList[i] = "" + name + "," + email;
+                    }
+                }
+            };
+            xhttp.open("GET", url, true);
+            xhttp.send();
+            return attendeesList;
+        }
+
+        function getUserEmail() {
+            var access_token = getCookie("access_token");
+            var url = "https://www.eventbriteapi.com/v3/users/me/?token=" + access_token;
+            var xhttp = new XMLHttpRequest();
+            var userEmail = "";
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    var responseJSON = JSON.parse(this.responseText);
+                    userEmail = responseJSON.emails[0].email;
+                    $("#reply_to").val(userEmail);
+                }
+            };
+            xhttp.open("GET", url, true);
+            xhttp.send();
+        }
+
+        function tdClick(i) {
+            var id = "#td_" + i;
+            var item = $(id);
+            if (item.hasClass("alert-danger")) {
+                item.removeClass("alert-danger");
+                item.addClass("alert-success");
+            }
+            else if (item.hasClass("alert-success")) {
+                item.removeClass("alert-success");
+                item.addClass("alert-danger");
+            }
+        }
+
+        $(document).ready(function () {
+            var editor = new SquireUI({replace: 'textarea#foo', height: 300});
+            var attendeesList = getAllAttendees();
+            getUserEmail();
+            var isNormal = true;
+            $("#normal").click(function () {
+                $("#sendCertificates").addClass('btn-danger');
+                $("#normal").removeClass('btn-danger');
+                isNormal = true;
+            });
+            $("#sendCertificates").click(function () {
+                $("#normal").addClass('btn-danger');
+                $("#sendCertificates").removeClass('btn-danger');
+                isNormal = false;
+            });
+            $("#all_attendees").click(function () {
+                $("#selected_attendees").removeClass("active");
+                $("#all_attendees").addClass("active");
+                document.getElementById("attendee_list").innerHTML = "";
+            });
+            $("#selected_attendees").click(function () {
+                $("#all_attendees").removeClass("active");
+                $("#selected_attendees").addClass("active");
+                var html = "<table class=\"table table-condensed\">\n" +
+                    "            <tbody>\n" +
+                    "            <tr>";
+                var i;
+                for (i = 0; i < attendeesList.length; i++) {
+                    var name = attendeesList[i].split(',')[0];
+                    var email = attendeesList[i].split(',')[1];
+                    var content = name + "," + email;
+                    var id = "td_" + i;
+                    html += "<td id = " + id + "  class='alert-danger' onclick='tdClick(" + i + ")'>" + content + "</td>";
+                    if ((i + 1) % 3 == 0) {
+                        html += "</tr>" +
+                            "<tr>"
+                    }
+                }
+                if ((i + 1) % 3 != 0) {
+                    html += "</tr>";
+                }
+                html += "</tbody></table>";
+                document.getElementById("attendee_list").innerHTML = html;
+            });
+
+
+            var myform = $("form#myform");
+            myform.submit(function (event) {
+                event.preventDefault();
+
+                // Change to your service ID, or keep using the default service
+                var service_id = "gmail";
+                var template_id = "template_Ph1sznvQ";
+                $("#send").html("Sending...");
+                // for choosing the selected attendees
+                if ($("#selected_attendees").hasClass("active")) {
+                    attendeesList = new Array();
+                    var count = 0;
+                    var i = 0;
+                    while (true) {
+                        var id = "#td_" + i;
+                        var item = $(id);
+                        var value = item.html();
+                        if (typeof(value) == "undefined") {
+                            break;
+                        }
+                        if (item.hasClass("alert-success")) {
+                            attendeesList[count++] = value;
+                        }
+                        i++;
+                    }
+                    if (attendeesList.length <= 0) {
+                        alert("You must choose at least one attendee");
+                        return;
+                    }
+                }
+
+
+                // get event Id;
+                var eventId = getCookie("eventId");
+
+                // sending the emails
+                for (var i = 0; i < attendeesList.length; i++) {
+                    var name = attendeesList[i].split(",")[0];
+                    var email = attendeesList[i].split(",")[1];
+
+                    if(!isNormal){
+                        // generate pdf files
+                        var jsonData = {"eventId": eventId, "fileName": attendeesList[i]};
+                        var pdfContent = "";
+                        myform.find("#content").val("");
+                        $.ajax({
+                            url: './mail.html/generate',
+                            data: jsonData,
+                            type: 'get',
+                            dataType: 'html',
+                            cache: false,
+                            async: false,
+                            success: function(result){
+                                pdfContent = result;
+                                myform.find("#content").val(pdfContent);
+                            }
+                        });
+
+                    }
+
+                    myform.find("#to_email").val(email);
+                    myform.find("#to_name").val(name);
+                    myform.find("#message_html").val(editor.getHTML());
+                    emailjs.sendForm(service_id, template_id, "myform");
+                }
+
+
+                $("#send").html("SEND");
+                alert("success");
+                location.replace("index.html");
+
+
+            });
+        });
+
+
+    </script>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_UOdH8HVsWNRFGXwamipe5");
+        })();
+    </script>
+
+</head>
+<body>
+<div class="container">
+
+    <div class="masthead">
+        <h3 class="text-muted">ICU Quoll</h3>
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav text-md-center nav-justified w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript/examples/grapheditor/www/index.html">Templates</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="mail.html">Mailbox</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="logout()">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <h2>Email Center</h2>
+    <p>Sending emails to your attendees</p>
+
+    <div class="btn-group btn-group-justified">
+        <button id="normal" type="button" class="btn btn-primary">Normal</button>
+        <button id="sendCertificates" type="button" class="btn btn-primary btn-danger">Send Certificates</button>
+    </div>
+    <form id="myform" enctype="multipart/form-data" method="post">
+        <input id="to_email" type="hidden" name="to_email" value=""/>
+
+
+        <br/><br/>
+        <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" class="form-control" id="subject" name="subject"/>
+        </div>
+        <div class="form-group">
+            <label for="reply_to">Reply to:</label>
+            <input type="text" name="reply_to" class="form-control" id="reply_to"/>
+
+
+        </div>
+        <div class="list-group">
+            <lable for="my_file">Attachment:</lable>
+            <input id="my_file" name="my_file" class="form-control" type="file" multiple/>
+        </div>
+        <input type="hidden" name="to_name" value="" id="to_name"/>
+        <input type="hidden" name="from_name" value="ICU QUOLL"/>
+        <input type="hidden" name="message_html" value="" id="message_html"/>
+        <input type="hidden" name="content" value="" id="content"/>
+        <div class="list-group">
+            <label>Send to:</label>
+            <a id="all_attendees" href="#" class="list-group-item active">All attendees</a>
+            <a id="selected_attendees" href="#" class="list-group-item">Selected attendees</a>
+        </div>
+
+        <div id="attendee_list"></div>
+        <tbody>
+        <div class="row">
+            <div class="col-centered">
+                <textarea id="foo"></textarea>
+            </div>
+        </div>
+
+        <br/>
+        <!--<input type="submit" value="send" id="send" class="form-control"/>-->
+        <button id="send" name="send" type="submit" class="btn btn-primary btn-block">Send</button>
+    </form>
+
+    <script>
+        cancel = function () {
+            location.replace("index.html");
+        }
+    </script>
+
+
+    <script>
+
+    </script>
+    <button type="button" class="btn btn-primary btn-block" onclick="cancel()">Cancel</button>
+
+
+</div>
+</body>

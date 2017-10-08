@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eventbrite.mapping.certificateMapper">
+
+    <select id="search" parameterType="com.eventbrite.domain.Certificate"
+            resultType="com.eventbrite.domain.Certificate">
+        select * from certificates where event_id=#{eventId}
+    </select>
+
+    <select id="save" parameterType="com.eventbrite.domain.Certificate">
+        INSERT certificates (event_id, xml) VALUES(#{eventId},#{xml});
+    </select>
+
+    <select id="update" parameterType="com.eventbrite.domain.Certificate">
+        UPDATE certificates
+        SET xml=#{xml}
+        WHERE event_id=#{eventId}
+    </select>
+</mapper>
