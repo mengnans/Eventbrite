@@ -52,7 +52,18 @@ public class ImportActioin extends ActionSupport implements ServletResponseAware
 		upfileFileName=getFileName(upfileFileName);
 
 		FileInputStream fis=new FileInputStream(upfile);
-		FileOutputStream fos=new FileOutputStream(savePath+"\\"+upfileFileName);
+
+//		while(savePath.endsWith("\\")){
+//			savePath = savePath.substring(0,savePath.length() - 1);
+//		}
+//
+//		while(upfileFileName.startsWith("\\")){
+//			upfileFileName = upfileContentType.substring(1,upfileFileName.length());
+//		}
+//		System.out.println(savePath);
+//		System.out.println(upfileFileName);
+//		System.out.println(savePath+"\\"+upfileFileName);
+		FileOutputStream fos=new FileOutputStream(savePath+upfileFileName);
 		byte [] b=new byte[4096];
 		int length=0;
 		while((length=fis.read(b))>0){

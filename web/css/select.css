@@ -2,5 +2,6 @@
     height: 800px !important;
     overflow: scroll;
 }
-
-​
+.clickable-row:hover{
+    color: #494bff;
+}
